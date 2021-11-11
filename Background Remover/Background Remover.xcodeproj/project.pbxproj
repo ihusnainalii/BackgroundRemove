@@ -16,6 +16,22 @@
 		954674A1273CEB2300919DC2 /* Background_RemoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674A0273CEB2300919DC2 /* Background_RemoverTests.swift */; };
 		954674AB273CEB2300919DC2 /* Background_RemoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674AA273CEB2300919DC2 /* Background_RemoverUITests.swift */; };
 		954674AD273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */; };
+		954674CD273CEBBF00919DC2 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674BF273CEBBE00919DC2 /* UIImage+CVPixelBuffer.swift */; };
+		954674CF273CEBBF00919DC2 /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C1273CEBBE00919DC2 /* CGImagePropertyOrientation.swift */; };
+		954674D0273CEBBF00919DC2 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C2273CEBBF00919DC2 /* MLMultiArray+Image.swift */; };
+		954674D1273CEBBF00919DC2 /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C3273CEBBF00919DC2 /* CGImage+RawBytes.swift */; };
+		954674D2273CEBBF00919DC2 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C4273CEBBF00919DC2 /* NonMaxSuppression.swift */; };
+		954674D3273CEBBF00919DC2 /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C5273CEBBF00919DC2 /* CVPixelBuffer+Helpers.swift */; };
+		954674D4273CEBBF00919DC2 /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C6273CEBBF00919DC2 /* CGImage+CVPixelBuffer.swift */; };
+		954674D5273CEBBF00919DC2 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C7273CEBBF00919DC2 /* Array+Extensions.swift */; };
+		954674D6273CEBBF00919DC2 /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C8273CEBBF00919DC2 /* UIImage+RawBytes.swift */; };
+		954674D7273CEBBF00919DC2 /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674C9273CEBBF00919DC2 /* MLMultiArray+Helpers.swift */; };
+		954674D8273CEBBF00919DC2 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674CA273CEBBF00919DC2 /* Predictions.swift */; };
+		954674D9273CEBBF00919DC2 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674CB273CEBBF00919DC2 /* UIImage+Extensions.swift */; };
+		954674DA273CEBBF00919DC2 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674CC273CEBBF00919DC2 /* Math.swift */; };
+		954674DC273CEBE200919DC2 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 954674DB273CEBE200919DC2 /* DeepLabV3.mlmodel */; };
+		954674DE273CEC4C00919DC2 /* IBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674DD273CEC4C00919DC2 /* IBDesignableView.swift */; };
+		954674E0273CF43100919DC2 /* ImageRemoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674DF273CF43100919DC2 /* ImageRemoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,22 @@
 		954674A6273CEB2300919DC2 /* Background RemoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background RemoverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		954674AA273CEB2300919DC2 /* Background_RemoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_RemoverUITests.swift; sourceTree = "<group>"; };
 		954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_RemoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		954674BF273CEBBE00919DC2 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		954674C1273CEBBE00919DC2 /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		954674C2273CEBBF00919DC2 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		954674C3273CEBBF00919DC2 /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		954674C4273CEBBF00919DC2 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		954674C5273CEBBF00919DC2 /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		954674C6273CEBBF00919DC2 /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		954674C7273CEBBF00919DC2 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		954674C8273CEBBF00919DC2 /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		954674C9273CEBBF00919DC2 /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		954674CA273CEBBF00919DC2 /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		954674CB273CEBBF00919DC2 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		954674CC273CEBBF00919DC2 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		954674DB273CEBE200919DC2 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		954674DD273CEC4C00919DC2 /* IBDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableView.swift; sourceTree = "<group>"; };
+		954674DF273CF43100919DC2 /* ImageRemoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRemoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +131,10 @@
 		95467488273CEB2100919DC2 /* Background Remover */ = {
 			isa = PBXGroup;
 			children = (
-				95467489273CEB2100919DC2 /* AppDelegate.swift */,
-				9546748B273CEB2100919DC2 /* SceneDelegate.swift */,
-				9546748D273CEB2100919DC2 /* ViewController.swift */,
-				9546748F273CEB2100919DC2 /* Main.storyboard */,
-				95467492273CEB2300919DC2 /* Assets.xcassets */,
-				95467494273CEB2300919DC2 /* LaunchScreen.storyboard */,
+				954674BE273CEBAC00919DC2 /* Helpers */,
+				954674BD273CEBA200919DC2 /* Resources */,
+				954674BA273CEB7D00919DC2 /* Presentation */,
+				954674B9273CEB7200919DC2 /* Application */,
 				95467497273CEB2300919DC2 /* Info.plist */,
 			);
 			path = "Background Remover";
@@ -125,6 +155,72 @@
 				954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */,
 			);
 			path = "Background RemoverUITests";
+			sourceTree = "<group>";
+		};
+		954674B9273CEB7200919DC2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				95467489273CEB2100919DC2 /* AppDelegate.swift */,
+				9546748B273CEB2100919DC2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		954674BA273CEB7D00919DC2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				954674BC273CEB9200919DC2 /* Storyboards */,
+				954674BB273CEB8500919DC2 /* ViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		954674BB273CEB8500919DC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9546748D273CEB2100919DC2 /* ViewController.swift */,
+				954674DF273CF43100919DC2 /* ImageRemoverView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		954674BC273CEB9200919DC2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				95467494273CEB2300919DC2 /* LaunchScreen.storyboard */,
+				9546748F273CEB2100919DC2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		954674BD273CEBA200919DC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95467492273CEB2300919DC2 /* Assets.xcassets */,
+				954674DB273CEBE200919DC2 /* DeepLabV3.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		954674BE273CEBAC00919DC2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				954674C7273CEBBF00919DC2 /* Array+Extensions.swift */,
+				954674C6273CEBBF00919DC2 /* CGImage+CVPixelBuffer.swift */,
+				954674C3273CEBBF00919DC2 /* CGImage+RawBytes.swift */,
+				954674C1273CEBBE00919DC2 /* CGImagePropertyOrientation.swift */,
+				954674C5273CEBBF00919DC2 /* CVPixelBuffer+Helpers.swift */,
+				954674CC273CEBBF00919DC2 /* Math.swift */,
+				954674C9273CEBBF00919DC2 /* MLMultiArray+Helpers.swift */,
+				954674C2273CEBBF00919DC2 /* MLMultiArray+Image.swift */,
+				954674C4273CEBBF00919DC2 /* NonMaxSuppression.swift */,
+				954674CA273CEBBF00919DC2 /* Predictions.swift */,
+				954674BF273CEBBE00919DC2 /* UIImage+CVPixelBuffer.swift */,
+				954674CB273CEBBF00919DC2 /* UIImage+Extensions.swift */,
+				954674C8273CEBBF00919DC2 /* UIImage+RawBytes.swift */,
+				954674DD273CEC4C00919DC2 /* IBDesignableView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +354,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954674E0273CF43100919DC2 /* ImageRemoverView.swift in Sources */,
 				9546748E273CEB2100919DC2 /* ViewController.swift in Sources */,
+				954674DE273CEC4C00919DC2 /* IBDesignableView.swift in Sources */,
+				954674CF273CEBBF00919DC2 /* CGImagePropertyOrientation.swift in Sources */,
+				954674D8273CEBBF00919DC2 /* Predictions.swift in Sources */,
+				954674D1273CEBBF00919DC2 /* CGImage+RawBytes.swift in Sources */,
+				954674D7273CEBBF00919DC2 /* MLMultiArray+Helpers.swift in Sources */,
+				954674D5273CEBBF00919DC2 /* Array+Extensions.swift in Sources */,
+				954674D0273CEBBF00919DC2 /* MLMultiArray+Image.swift in Sources */,
 				9546748A273CEB2100919DC2 /* AppDelegate.swift in Sources */,
+				954674D6273CEBBF00919DC2 /* UIImage+RawBytes.swift in Sources */,
+				954674DC273CEBE200919DC2 /* DeepLabV3.mlmodel in Sources */,
+				954674D4273CEBBF00919DC2 /* CGImage+CVPixelBuffer.swift in Sources */,
 				9546748C273CEB2100919DC2 /* SceneDelegate.swift in Sources */,
+				954674D3273CEBBF00919DC2 /* CVPixelBuffer+Helpers.swift in Sources */,
+				954674D9273CEBBF00919DC2 /* UIImage+Extensions.swift in Sources */,
+				954674D2273CEBBF00919DC2 /* NonMaxSuppression.swift in Sources */,
+				954674CD273CEBBF00919DC2 /* UIImage+CVPixelBuffer.swift in Sources */,
+				954674DA273CEBBF00919DC2 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +554,8 @@
 				DEVELOPMENT_TEAM = WV3DL6QLG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Background Remover/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App use camera to capture image for background remover.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App use photos to select image for background remover.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +584,8 @@
 				DEVELOPMENT_TEAM = WV3DL6QLG2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Background Remover/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App use camera to capture image for background remover.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "App use photos to select image for background remover.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Background_Remover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0af-fR-pnt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bo-5y-YVg">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="42X-bc-lUt"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Choose Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnChooseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4fc-Uq-2Yt"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Bb9-cA-9PQ">
+                                <rect key="frame" x="20" y="752" width="374" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5fg-xh-KBg"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Aspect Fit"/>
+                                    <segment title="Aspect Fill"/>
+                                </segments>
+                                <connections>
+                                    <action selector="updateContentMode:" destination="BYZ-38-t0r" eventType="valueChanged" id="dIf-fT-Er5"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFh-3g-TF9">
+                                <rect key="frame" x="354" y="54" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="W5d-XA-cGh"/>
+                                    <constraint firstAttribute="height" constant="40" id="a3E-fQ-Pkb"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" title="" image="delete"/>
+                                <connections>
+                                    <action selector="btnRemoveTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JXi-86-8sW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No image selected, Please select an image to continue." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxB-aW-fHJ">
+                                <rect key="frame" x="50" y="114" width="314" height="618"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bb9-cA-9PQ" firstAttribute="top" secondItem="LxB-aW-fHJ" secondAttribute="bottom" constant="20" id="0YY-ZI-2xa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Bo-5y-YVg" secondAttribute="trailing" constant="20" id="2T5-66-mvo"/>
+                            <constraint firstItem="0af-fR-pnt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5eN-Bb-7NU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jFh-3g-TF9" secondAttribute="trailing" constant="20" id="7t2-er-VVW"/>
+                            <constraint firstItem="9Bo-5y-YVg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DN3-U4-QSv"/>
+                            <constraint firstAttribute="bottom" secondItem="0af-fR-pnt" secondAttribute="bottom" id="Dx0-V7-2EI"/>
+                            <constraint firstItem="9Bo-5y-YVg" firstAttribute="top" secondItem="Bb9-cA-9PQ" secondAttribute="bottom" constant="10" id="F5Y-dl-JtQ"/>
+                            <constraint firstItem="jFh-3g-TF9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="FDy-9I-ehd"/>
+                            <constraint firstItem="Bb9-cA-9PQ" firstAttribute="trailing" secondItem="9Bo-5y-YVg" secondAttribute="trailing" id="LpL-cm-M0W"/>
+                            <constraint firstItem="LxB-aW-fHJ" firstAttribute="top" secondItem="jFh-3g-TF9" secondAttribute="bottom" constant="20" id="Mar-lB-KrB"/>
+                            <constraint firstItem="0af-fR-pnt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UQA-MB-sq1"/>
+                            <constraint firstItem="LxB-aW-fHJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="W3S-pu-Pnw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Bo-5y-YVg" secondAttribute="bottom" constant="20" id="bjk-sY-pJl"/>
+                            <constraint firstItem="0af-fR-pnt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ds8-G4-qxG"/>
+                            <constraint firstItem="Bb9-cA-9PQ" firstAttribute="leading" secondItem="9Bo-5y-YVg" secondAttribute="leading" id="fqj-EJ-I7X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LxB-aW-fHJ" secondAttribute="trailing" constant="50" id="zHY-Jy-atX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnChoose" destination="9Bo-5y-YVg" id="lCX-Mx-d9z"/>
+                        <outlet property="btnRemove" destination="jFh-3g-TF9" id="Eec-a6-b9t"/>
+                        <outlet property="segment" destination="Bb9-cA-9PQ" id="k2P-Oj-MbJ"/>
+                        <outlet property="selectedImg" destination="0af-fR-pnt" id="JQR-WT-tbV"/>
+                        <outlet property="textlbl" destination="LxB-aW-fHJ" id="5lS-NM-ZMv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="108.48214285714285"/>
+        </scene>
+        <!--Image Remover View-->
+        <scene sceneID="dOJ-cX-nAn">
+            <objects>
+                <viewController storyboardIdentifier="ImageRemoverView" modalPresentationStyle="overFullScreen" id="1JC-G0-3FT" customClass="ImageRemoverView" customModule="Background_Remover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="76e-0S-5jQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngbg" translatesAutoresizingMaskIntoConstraints="NO" id="pYq-2w-Ohd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6yk-N7-hGb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YdN-y0-GeX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6yk-N7-hGb" firstAttribute="leading" secondItem="YdN-y0-GeX" secondAttribute="leading" id="03h-AN-KaT"/>
+                            <constraint firstItem="6yk-N7-hGb" firstAttribute="top" secondItem="76e-0S-5jQ" secondAttribute="top" id="3LC-F2-7xm"/>
+                            <constraint firstItem="pYq-2w-Ohd" firstAttribute="leading" secondItem="YdN-y0-GeX" secondAttribute="leading" id="4dg-nl-PVt"/>
+                            <constraint firstAttribute="bottom" secondItem="pYq-2w-Ohd" secondAttribute="bottom" id="9cM-7H-idB"/>
+                            <constraint firstAttribute="trailing" secondItem="pYq-2w-Ohd" secondAttribute="trailing" id="WF2-PM-ox1"/>
+                            <constraint firstItem="6yk-N7-hGb" firstAttribute="trailing" secondItem="YdN-y0-GeX" secondAttribute="trailing" id="lpm-Os-7sy"/>
+                            <constraint firstItem="pYq-2w-Ohd" firstAttribute="top" secondItem="76e-0S-5jQ" secondAttribute="top" id="och-ig-54T"/>
+                            <constraint firstAttribute="bottom" secondItem="6yk-N7-hGb" secondAttribute="bottom" id="vWz-VI-q1w"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="converted" destination="6yk-N7-hGb" id="Sf7-Iy-XtI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXU-ir-0Ug" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.95652173913049" y="107.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="delete" width="512" height="512"/>
+        <image name="pngbg" width="800" height="533"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
