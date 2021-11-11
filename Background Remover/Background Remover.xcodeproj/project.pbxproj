@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9546748A273CEB2100919DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95467489273CEB2100919DC2 /* AppDelegate.swift */; };
+		9546748C273CEB2100919DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546748B273CEB2100919DC2 /* SceneDelegate.swift */; };
+		9546748E273CEB2100919DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546748D273CEB2100919DC2 /* ViewController.swift */; };
+		95467491273CEB2100919DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9546748F273CEB2100919DC2 /* Main.storyboard */; };
+		95467493273CEB2300919DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95467492273CEB2300919DC2 /* Assets.xcassets */; };
+		95467496273CEB2300919DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95467494273CEB2300919DC2 /* LaunchScreen.storyboard */; };
+		954674A1273CEB2300919DC2 /* Background_RemoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674A0273CEB2300919DC2 /* Background_RemoverTests.swift */; };
+		954674AB273CEB2300919DC2 /* Background_RemoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674AA273CEB2300919DC2 /* Background_RemoverUITests.swift */; };
+		954674AD273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9546749D273CEB2300919DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9546747E273CEB2100919DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95467485273CEB2100919DC2;
+			remoteInfo = "Background Remover";
+		};
+		954674A7273CEB2300919DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9546747E273CEB2100919DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95467485273CEB2100919DC2;
+			remoteInfo = "Background Remover";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95467486273CEB2100919DC2 /* Background Remover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Remover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95467489273CEB2100919DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9546748B273CEB2100919DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9546748D273CEB2100919DC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95467490273CEB2100919DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95467492273CEB2300919DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95467495273CEB2300919DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95467497273CEB2300919DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9546749C273CEB2300919DC2 /* Background RemoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background RemoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954674A0273CEB2300919DC2 /* Background_RemoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_RemoverTests.swift; sourceTree = "<group>"; };
+		954674A6273CEB2300919DC2 /* Background RemoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background RemoverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954674AA273CEB2300919DC2 /* Background_RemoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_RemoverUITests.swift; sourceTree = "<group>"; };
+		954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background_RemoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95467483273CEB2100919DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95467499273CEB2300919DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954674A3273CEB2300919DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9546747D273CEB2100919DC2 = {
+			isa = PBXGroup;
+			children = (
+				95467488273CEB2100919DC2 /* Background Remover */,
+				9546749F273CEB2300919DC2 /* Background RemoverTests */,
+				954674A9273CEB2300919DC2 /* Background RemoverUITests */,
+				95467487273CEB2100919DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95467487273CEB2100919DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95467486273CEB2100919DC2 /* Background Remover.app */,
+				9546749C273CEB2300919DC2 /* Background RemoverTests.xctest */,
+				954674A6273CEB2300919DC2 /* Background RemoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95467488273CEB2100919DC2 /* Background Remover */ = {
+			isa = PBXGroup;
+			children = (
+				95467489273CEB2100919DC2 /* AppDelegate.swift */,
+				9546748B273CEB2100919DC2 /* SceneDelegate.swift */,
+				9546748D273CEB2100919DC2 /* ViewController.swift */,
+				9546748F273CEB2100919DC2 /* Main.storyboard */,
+				95467492273CEB2300919DC2 /* Assets.xcassets */,
+				95467494273CEB2300919DC2 /* LaunchScreen.storyboard */,
+				95467497273CEB2300919DC2 /* Info.plist */,
+			);
+			path = "Background Remover";
+			sourceTree = "<group>";
+		};
+		9546749F273CEB2300919DC2 /* Background RemoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				954674A0273CEB2300919DC2 /* Background_RemoverTests.swift */,
+			);
+			path = "Background RemoverTests";
+			sourceTree = "<group>";
+		};
+		954674A9273CEB2300919DC2 /* Background RemoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				954674AA273CEB2300919DC2 /* Background_RemoverUITests.swift */,
+				954674AC273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift */,
+			);
+			path = "Background RemoverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95467485273CEB2100919DC2 /* Background Remover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954674B0273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background Remover" */;
+			buildPhases = (
+				95467482273CEB2100919DC2 /* Sources */,
+				95467483273CEB2100919DC2 /* Frameworks */,
+				95467484273CEB2100919DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Background Remover";
+			productName = "Background Remover";
+			productReference = 95467486273CEB2100919DC2 /* Background Remover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9546749B273CEB2300919DC2 /* Background RemoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954674B3273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background RemoverTests" */;
+			buildPhases = (
+				95467498273CEB2300919DC2 /* Sources */,
+				95467499273CEB2300919DC2 /* Frameworks */,
+				9546749A273CEB2300919DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9546749E273CEB2300919DC2 /* PBXTargetDependency */,
+			);
+			name = "Background RemoverTests";
+			productName = "Background RemoverTests";
+			productReference = 9546749C273CEB2300919DC2 /* Background RemoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		954674A5273CEB2300919DC2 /* Background RemoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954674B6273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background RemoverUITests" */;
+			buildPhases = (
+				954674A2273CEB2300919DC2 /* Sources */,
+				954674A3273CEB2300919DC2 /* Frameworks */,
+				954674A4273CEB2300919DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954674A8273CEB2300919DC2 /* PBXTargetDependency */,
+			);
+			name = "Background RemoverUITests";
+			productName = "Background RemoverUITests";
+			productReference = 954674A6273CEB2300919DC2 /* Background RemoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9546747E273CEB2100919DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					95467485273CEB2100919DC2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9546749B273CEB2300919DC2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 95467485273CEB2100919DC2;
+					};
+					954674A5273CEB2300919DC2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 95467485273CEB2100919DC2;
+					};
+				};
+			};
+			buildConfigurationList = 95467481273CEB2100919DC2 /* Build configuration list for PBXProject "Background Remover" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9546747D273CEB2100919DC2;
+			productRefGroup = 95467487273CEB2100919DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95467485273CEB2100919DC2 /* Background Remover */,
+				9546749B273CEB2300919DC2 /* Background RemoverTests */,
+				954674A5273CEB2300919DC2 /* Background RemoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95467484273CEB2100919DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95467496273CEB2300919DC2 /* LaunchScreen.storyboard in Resources */,
+				95467493273CEB2300919DC2 /* Assets.xcassets in Resources */,
+				95467491273CEB2100919DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9546749A273CEB2300919DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954674A4273CEB2300919DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95467482273CEB2100919DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9546748E273CEB2100919DC2 /* ViewController.swift in Sources */,
+				9546748A273CEB2100919DC2 /* AppDelegate.swift in Sources */,
+				9546748C273CEB2100919DC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95467498273CEB2300919DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954674A1273CEB2300919DC2 /* Background_RemoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954674A2273CEB2300919DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954674AB273CEB2300919DC2 /* Background_RemoverUITests.swift in Sources */,
+				954674AD273CEB2300919DC2 /* Background_RemoverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9546749E273CEB2300919DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95467485273CEB2100919DC2 /* Background Remover */;
+			targetProxy = 9546749D273CEB2300919DC2 /* PBXContainerItemProxy */;
+		};
+		954674A8273CEB2300919DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95467485273CEB2100919DC2 /* Background Remover */;
+			targetProxy = 954674A7273CEB2300919DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9546748F273CEB2100919DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95467490273CEB2100919DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95467494273CEB2300919DC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95467495273CEB2300919DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954674AE273CEB2300919DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		954674AF273CEB2300919DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954674B1273CEB2300919DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Remover/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-Remover";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954674B2273CEB2300919DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Background Remover/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-Remover";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		954674B4273CEB2300919DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-RemoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Remover.app/Background Remover";
+			};
+			name = Debug;
+		};
+		954674B5273CEB2300919DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-RemoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Remover.app/Background Remover";
+			};
+			name = Release;
+		};
+		954674B7273CEB2300919DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-RemoverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Remover";
+			};
+			name = Debug;
+		};
+		954674B8273CEB2300919DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WV3DL6QLG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Background-RemoverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Background Remover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95467481273CEB2100919DC2 /* Build configuration list for PBXProject "Background Remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954674AE273CEB2300919DC2 /* Debug */,
+				954674AF273CEB2300919DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954674B0273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background Remover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954674B1273CEB2300919DC2 /* Debug */,
+				954674B2273CEB2300919DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954674B3273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background RemoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954674B4273CEB2300919DC2 /* Debug */,
+				954674B5273CEB2300919DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954674B6273CEB2300919DC2 /* Build configuration list for PBXNativeTarget "Background RemoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954674B7273CEB2300919DC2 /* Debug */,
+				954674B8273CEB2300919DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9546747E273CEB2100919DC2 /* Project object */;
+}
