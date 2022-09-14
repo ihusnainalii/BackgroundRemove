@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C80449F84CF910DF6AD6AFDDE039F2A /* OpenCV */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF6190B337FB4264B844753D51FB17E5 /* Build configuration list for PBXAggregateTarget "OpenCV" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OpenCV;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6001ED40523F5C90DCE2E85B2A72AE09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A7FCE9E708E66F9A38DDCE29929D85A4 /* Pods-SwiftStitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B80F366CDBE6AE35C46039C7E63521 /* Pods-SwiftStitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFDAC2C0252181C972870691A3BEAAE /* Pods-SwiftStitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373889589589E0D1FBF2D0F30660D43 /* Pods-SwiftStitch-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB04F9DB8E4C1C8388425DED09587A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C80449F84CF910DF6AD6AFDDE039F2A;
+			remoteInfo = OpenCV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DD78A7840879D6835ECE4DE4654800 /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/photo/cuda.hpp; sourceTree = "<group>"; };
+		0313CFD6DD5C801766C417864D69FB81 /* async.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = async.hpp; path = opencv2.framework/Versions/A/Headers/core/async.hpp; sourceTree = "<group>"; };
+		035937ACD4778B0A724932B0FDDC16F7 /* neon_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = neon_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/neon_utils.hpp; sourceTree = "<group>"; };
+		0536BBC40299F76255ECAC18C6ABE4AD /* videoio_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videoio_c.h; path = opencv2.framework/Versions/A/Headers/videoio/videoio_c.h; sourceTree = "<group>"; };
+		0611814E4450203EAE8B38FF1D5498EC /* sampling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sampling.h; path = opencv2.framework/Versions/A/Headers/flann/sampling.h; sourceTree = "<group>"; };
+		066ABA9076353EDF522F2564764A7F09 /* gfluidbuffer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gfluidbuffer.hpp; path = opencv2.framework/Versions/A/Headers/gapi/fluid/gfluidbuffer.hpp; sourceTree = "<group>"; };
+		06AAE531998292E773269499AE569133 /* gcomputation_async.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcomputation_async.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcomputation_async.hpp; sourceTree = "<group>"; };
+		06F81ABE56D30ECE1D90D7C6BA031A94 /* ggpukernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ggpukernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gpu/ggpukernel.hpp; sourceTree = "<group>"; };
+		07DFEDE603171177ED2F0B57E037B4B2 /* nn_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nn_index.h; path = opencv2.framework/Versions/A/Headers/flann/nn_index.h; sourceTree = "<group>"; };
+		088A4D9836F586DEE36A0E9D9F281770 /* util.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = util.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/util.hpp; sourceTree = "<group>"; };
+		0AF775E2D2A7BD3E3A4AC12736BB48BC /* limits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = limits.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/limits.hpp; sourceTree = "<group>"; };
+		0C1C96C14169BE1A299101539635C2B5 /* cvconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvconfig.h; path = opencv2.framework/Versions/A/Headers/cvconfig.h; sourceTree = "<group>"; };
+		0CFE9C604453BC095FDF979C70BBC325 /* common.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = common.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/common.hpp; sourceTree = "<group>"; };
+		0D569EB111C27E5D9A0D1F7D6CDC18EE /* constants_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constants_c.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h; sourceTree = "<group>"; };
+		0E7CD5BC26CA896FD02DD877946B3DFC /* object_factory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = object_factory.h; path = opencv2.framework/Versions/A/Headers/flann/object_factory.h; sourceTree = "<group>"; };
+		10164580AFB39117F218EA3D5984DF2D /* exports.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = exports.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/exports.hpp; sourceTree = "<group>"; };
+		112354607F804ABE563B1F23F3CA7D10 /* render.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = render.hpp; path = opencv2.framework/Versions/A/Headers/gapi/render.hpp; sourceTree = "<group>"; };
+		12BAACA98D63721EA2D41E7F6BD32A06 /* mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mat.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.hpp; sourceTree = "<group>"; };
+		1363FF6629169596D99463A5E9ABCB6D /* cvdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvdef.h; path = opencv2.framework/Versions/A/Headers/core/cvdef.h; sourceTree = "<group>"; };
+		154FD2CD0CEFB35BDF09C75000355B5A /* index_testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = index_testing.h; path = opencv2.framework/Versions/A/Headers/flann/index_testing.h; sourceTree = "<group>"; };
+		15EC7175EF4F552C93D951F36ADFD4B9 /* variant.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = variant.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/variant.hpp; sourceTree = "<group>"; };
+		1642B9FA823708A1D1AA7DE2F34AC62C /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui/highgui.hpp; sourceTree = "<group>"; };
+		16C8FE84C58E23CDDAE9C18B4C8B7326 /* opencl_gl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_gl.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl.hpp; sourceTree = "<group>"; };
+		16D50ADD4C3702859309FD6467E9C92A /* dnn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dnn.hpp; path = opencv2.framework/Versions/A/Headers/dnn.hpp; sourceTree = "<group>"; };
+		1779C0050232C6A1BC3B6E4509085AB5 /* block.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = block.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/block.hpp; sourceTree = "<group>"; };
+		17A7C5E6DA5477CDBF9E3DAFDB1B41B5 /* dynamic_smem.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dynamic_smem.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/dynamic_smem.hpp; sourceTree = "<group>"; };
+		1898B392B954E75FB7A4F6D1C5FE333B /* ovx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ovx.hpp; path = opencv2.framework/Versions/A/Headers/core/ovx.hpp; sourceTree = "<group>"; };
+		1948B009971819EBFE21F18E4966590B /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d.hpp; sourceTree = "<group>"; };
+		1A2FE2AD3BF59C9FFA3F27703AF83B91 /* gscalar.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gscalar.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gscalar.hpp; sourceTree = "<group>"; };
+		1A7A934E8E456B18B0C3FE0AF2FDAAF9 /* intrin_avx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_avx.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_avx.hpp; sourceTree = "<group>"; };
+		1B8766A78A7B7ADACE7D97BD538669A1 /* constants_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constants_c.h; path = opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h; sourceTree = "<group>"; };
+		1D1B0787DE5986CE7BD867CA5724834C /* cuda.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.inl.hpp; sourceTree = "<group>"; };
+		1D99654F7B39A9577D55947F2ECA3870 /* miniflann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = miniflann.hpp; path = opencv2.framework/Versions/A/Headers/flann/miniflann.hpp; sourceTree = "<group>"; };
+		1E6EB4116242A937CFD4EB4A15A69BAF /* flann_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann_base.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann_base.hpp; sourceTree = "<group>"; };
+		217BF946A5D4A61EC101D4B2F837B268 /* transform_detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = transform_detail.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/transform_detail.hpp; sourceTree = "<group>"; };
+		22E59D996F68C9578DD8B418E259B630 /* border_interpolate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = border_interpolate.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/border_interpolate.hpp; sourceTree = "<group>"; };
+		234E9452873F0CC21E9E3E892686B8FB /* gtype_traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gtype_traits.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gtype_traits.hpp; sourceTree = "<group>"; };
+		23778D4324E1DFACA703D75313429AF5 /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/warpers.hpp; sourceTree = "<group>"; };
+		246BA28AC63F70A62A112526AABE3D52 /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs.hpp; sourceTree = "<group>"; };
+		2531C79BFD419025934BEF9639E5967D /* vec_traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = vec_traits.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/vec_traits.hpp; sourceTree = "<group>"; };
+		25B1CCAD44A3D6B25858A25C06CE92EC /* any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = any.h; path = opencv2.framework/Versions/A/Headers/flann/any.h; sourceTree = "<group>"; };
+		266F2018505BB9888ABE810C53A475F2 /* result_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = result_set.h; path = opencv2.framework/Versions/A/Headers/flann/result_set.h; sourceTree = "<group>"; };
+		267E2813D918F81C5C06F899BC17D440 /* mat.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mat.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/mat.inl.hpp; sourceTree = "<group>"; };
+		294DCC9D6AE090F7791E085A28808083 /* fast_math.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_math.hpp; path = opencv2.framework/Versions/A/Headers/core/fast_math.hpp; sourceTree = "<group>"; };
+		29597D1088A682834DCD869224A5E537 /* vec_distance.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = vec_distance.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/vec_distance.hpp; sourceTree = "<group>"; };
+		29F426FAC79C08C6F210586D317970F9 /* warp_shuffle.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warp_shuffle.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/warp_shuffle.hpp; sourceTree = "<group>"; };
+		2A3671D17E4EEEFD6A3FE5A4C8E0B8AD /* defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = defines.h; path = opencv2.framework/Versions/A/Headers/flann/defines.h; sourceTree = "<group>"; };
+		2B247059863A0F69896B5FA2F253D007 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d.hpp; sourceTree = "<group>"; };
+		2B56A34D01CEE6D4B96B09D3FE0C77CB /* opencv_includes.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv_includes.hpp; path = opencv2.framework/Versions/A/Headers/gapi/opencv_includes.hpp; sourceTree = "<group>"; };
+		2CEE0B3023A2B7AA6DEB5CEC1C0A24A4 /* opencl_svm_definitions.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_svm_definitions.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_definitions.hpp; sourceTree = "<group>"; };
+		2DE7A585CDF7122936C88597C28BF84C /* intrin_sse_em.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_sse_em.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_sse_em.hpp; sourceTree = "<group>"; };
+		2DF5033BC730B028FA8708D9FC365C9C /* warpers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers.hpp; sourceTree = "<group>"; };
+		2EF322C797613E2542341B40E066185F /* saturate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = saturate.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/saturate.hpp; sourceTree = "<group>"; };
+		2EF37C62819917780191C147D41DFE2C /* garray.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = garray.hpp; path = opencv2.framework/Versions/A/Headers/gapi/garray.hpp; sourceTree = "<group>"; };
+		30695FE9F2B25E2702C27AFA44CE7BE7 /* cuda_stream_accessor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda_stream_accessor.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_stream_accessor.hpp; sourceTree = "<group>"; };
+		31B4107B2ECE1E6AA5C803364F832D7C /* render.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = render.hpp; path = opencv2.framework/Versions/A/Headers/gapi/render/render.hpp; sourceTree = "<group>"; };
+		3288C89AB39131A2F92D23DC01194692 /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo/photo.hpp; sourceTree = "<group>"; };
+		32DB7463DF920CE3933914C110ABD500 /* gopaque.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gopaque.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gopaque.hpp; sourceTree = "<group>"; };
+		34805E1E2533E9593FD92F4A0FD554B9 /* opencl_core_wrappers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_core_wrappers.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core_wrappers.hpp; sourceTree = "<group>"; };
+		3556AE03A931205C3D5C8BBE822B0602 /* gcgraph.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcgraph.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/detail/gcgraph.hpp; sourceTree = "<group>"; };
+		3634391C454396A53A3A0455FDB389A3 /* ground_truth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ground_truth.h; path = opencv2.framework/Versions/A/Headers/flann/ground_truth.h; sourceTree = "<group>"; };
+		36DB2F43D79BD94BA2EC39D116DFAACA /* warp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warp.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/warp.hpp; sourceTree = "<group>"; };
+		379586404D434DF0BF1E0D8271BC6131 /* matchers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matchers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/matchers.hpp; sourceTree = "<group>"; };
+		379CB07B19BF48F657F09089195093DC /* bufferpool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = bufferpool.hpp; path = opencv2.framework/Versions/A/Headers/core/bufferpool.hpp; sourceTree = "<group>"; };
+		38516EEF19A26CDF902A0A45B33060A8 /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/gapi/imgproc.hpp; sourceTree = "<group>"; };
+		3B813EEBB435E12762480E67A0B4DB1B /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video.hpp; sourceTree = "<group>"; };
+		3BE929E0A42B5D6AE551AF411EBDD84C /* plaidml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = plaidml.hpp; path = opencv2.framework/Versions/A/Headers/gapi/plaidml/plaidml.hpp; sourceTree = "<group>"; };
+		3C78AF6DDD0A51D29382DC82EF81BA5C /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/gapi/ocl/imgproc.hpp; sourceTree = "<group>"; };
+		3C902698AC3D729F23A76CFC8775B055 /* optim.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = optim.hpp; path = opencv2.framework/Versions/A/Headers/core/optim.hpp; sourceTree = "<group>"; };
+		3E214E6CC849D2C00AE32CDBCC26DE6E /* imgproc_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgproc_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc_c.h; sourceTree = "<group>"; };
+		3F4BD69928822D04D87B61421474376E /* logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logger.h; path = opencv2.framework/Versions/A/Headers/flann/logger.h; sourceTree = "<group>"; };
+		40AFD29DE74C26C2709B8F0898FF5F6A /* msa_macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = msa_macros.h; path = opencv2.framework/Versions/A/Headers/core/hal/msa_macros.h; sourceTree = "<group>"; };
+		40B962470326FD6BACBAE37A3D0361B9 /* world.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = world.hpp; path = opencv2.framework/Versions/A/Headers/world.hpp; sourceTree = "<group>"; };
+		42A1E6B7D4D6E297F56BA91CFF508C0E /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio/videoio.hpp; sourceTree = "<group>"; };
+		464CADA2E0EA701B8418554E8981CD3A /* simd_utils.impl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = simd_utils.impl.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/simd_utils.impl.hpp; sourceTree = "<group>"; };
+		4734E2B89063823D20C14FA789D0849E /* general.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = general.h; path = opencv2.framework/Versions/A/Headers/flann/general.h; sourceTree = "<group>"; };
+		474D24597140FFBFDB7836BE2AFA5676 /* hal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hal.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/hal/hal.hpp; sourceTree = "<group>"; };
+		47DB3CE4CBE4316C084D6313642BDDA1 /* eigen.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = eigen.hpp; path = opencv2.framework/Versions/A/Headers/core/eigen.hpp; sourceTree = "<group>"; };
+		499E8DD807B411F4C5DF7D22F08AC2C8 /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann.hpp; sourceTree = "<group>"; };
+		49E48D223949194FF88E158301B8AD9D /* saving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = saving.h; path = opencv2.framework/Versions/A/Headers/flann/saving.h; sourceTree = "<group>"; };
+		4C09155D3E6E86EB0F5BCE583DB6E3C1 /* matx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matx.hpp; path = opencv2.framework/Versions/A/Headers/core/matx.hpp; sourceTree = "<group>"; };
+		502A19B6F1F8C38337E79333FE65513D /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = opencv2.framework/Versions/A/Headers/flann/params.h; sourceTree = "<group>"; };
+		5124EB7B7D9442890F715EE5CDAC0675 /* allocator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allocator.h; path = opencv2.framework/Versions/A/Headers/flann/allocator.h; sourceTree = "<group>"; };
+		515EA336EC9984DB27BA0B09312AA4C9 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml/ml.hpp; sourceTree = "<group>"; };
+		5195D841DCD705F98D08CFF654B4E9A8 /* cap_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cap_ios.h; path = opencv2.framework/Versions/A/Headers/videoio/cap_ios.h; sourceTree = "<group>"; };
+		51B4F1A91ED485BA368F27D4AF0E2089 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/ocl/core.hpp; sourceTree = "<group>"; };
+		52701005219D352CA6D77937B78BFCF7 /* optional.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = optional.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/optional.hpp; sourceTree = "<group>"; };
+		54504DE85DBD5DA2E200B8BD7779FA89 /* kdtree_single_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_single_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_single_index.h; sourceTree = "<group>"; };
+		54D251A5B48CAE85C74AE5333277DBF9 /* goclkernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = goclkernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/ocl/goclkernel.hpp; sourceTree = "<group>"; };
+		54D95967D17A99AC676DBC466A0C01C5 /* vec_distance_detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = vec_distance_detail.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/vec_distance_detail.hpp; sourceTree = "<group>"; };
+		54E4D42A8E0E214478EAB648297CFA5E /* gapi.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gapi.hpp; path = opencv2.framework/Versions/A/Headers/gapi.hpp; sourceTree = "<group>"; };
+		55BEDCC62A8B78DE0B7DC3875A631F9B /* gmetaarg.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gmetaarg.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gmetaarg.hpp; sourceTree = "<group>"; };
+		5644546119DF7339593B044FF91EB43B /* highgui_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = highgui_c.h; path = opencv2.framework/Versions/A/Headers/highgui/highgui_c.h; sourceTree = "<group>"; };
+		57C8DF4750BE1B0D5BA4D563C1E856E9 /* gmat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gmat.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gmat.hpp; sourceTree = "<group>"; };
+		57DA6B33C50CAD24A2C6FFCC9685851C /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = photo.hpp; path = opencv2.framework/Versions/A/Headers/photo.hpp; sourceTree = "<group>"; };
+		5900782493FB3B6BDEE924110BF307D9 /* dnn.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dnn.inl.hpp; path = opencv2.framework/Versions/A/Headers/dnn/dnn.inl.hpp; sourceTree = "<group>"; };
+		5AD2EAB7DB9DC4ED97682900DB7E9C77 /* cv_cpu_dispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cv_cpu_dispatch.h; path = opencv2.framework/Versions/A/Headers/core/cv_cpu_dispatch.h; sourceTree = "<group>"; };
+		5B9F8ED4C36BC773DFB440ED64CF2054 /* Pods-SwiftStitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStitch-Info.plist"; sourceTree = "<group>"; };
+		5BF409664BF836A22B8DF4CDF2217860 /* sse_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = sse_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/sse_utils.hpp; sourceTree = "<group>"; };
+		5CF82FA06784EBCD29C84499BAC4FA96 /* trace.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = trace.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/trace.hpp; sourceTree = "<group>"; };
+		5D5F7FBF7D6D5A13476C7D5849CC4DED /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/core/types_c.h; sourceTree = "<group>"; };
+		5D8F4C2B75054BB10A2E78736967D7B8 /* ml.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.inl.hpp; path = opencv2.framework/Versions/A/Headers/ml/ml.inl.hpp; sourceTree = "<group>"; };
+		5E2CB0C051EB6A184350FA39E742E28F /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = version.hpp; path = opencv2.framework/Versions/A/Headers/dnn/version.hpp; sourceTree = "<group>"; };
+		5E5FFAB4F4AE2EDFA0345697074ECA32 /* opencl_gl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_gl.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl.hpp; sourceTree = "<group>"; };
+		5EFA6385E0EF37E0444BB9DF43C9BF2D /* logger.defines.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = logger.defines.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/logger.defines.hpp; sourceTree = "<group>"; };
+		61E782E7F81871DB7EBCF19130C429F2 /* va_intel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = va_intel.hpp; path = opencv2.framework/Versions/A/Headers/core/va_intel.hpp; sourceTree = "<group>"; };
+		61EA50C8CD8ED8E4A374DC8F1212DFD9 /* intrin_neon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_neon.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_neon.hpp; sourceTree = "<group>"; };
+		6351A98BCAB5845FB95FA18369121886 /* opengl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opengl.hpp; path = opencv2.framework/Versions/A/Headers/core/opengl.hpp; sourceTree = "<group>"; };
+		6373889589589E0D1FBF2D0F30660D43 /* Pods-SwiftStitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftStitch-dummy.m"; sourceTree = "<group>"; };
+		658DEDEE573A7FBD7E158811A7D809FD /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = opencv2.framework/Versions/A/Headers/flann/timer.h; sourceTree = "<group>"; };
+		659F16FF1495446227875A5E7A9ABE7E /* opencl_gl_wrappers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_gl_wrappers.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp; sourceTree = "<group>"; };
+		660A601DDAE1F0CEFA6259409C5C41DC /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/plaidml/core.hpp; sourceTree = "<group>"; };
+		6697277CA91D3325C6C3BB058AA47AA2 /* intrin_sse.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_sse.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_sse.hpp; sourceTree = "<group>"; };
+		66A01EA8C4F684B10F4FF543DB9A1FBA /* hal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hal.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/hal.hpp; sourceTree = "<group>"; };
+		678395A8CB8FD0E9A5D637CA6AE444B1 /* saturate_cast.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = saturate_cast.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/saturate_cast.hpp; sourceTree = "<group>"; };
+		67A23792E85B79040E53EC276BCCBBEC /* background_segm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = background_segm.hpp; path = opencv2.framework/Versions/A/Headers/video/background_segm.hpp; sourceTree = "<group>"; };
+		6875CB132F6ECDDB27990143E7DD98E8 /* opencv.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv.hpp; path = opencv2.framework/Versions/A/Headers/opencv.hpp; sourceTree = "<group>"; };
+		6C440FF12E21C32B2714C778A031B7E5 /* OpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCV.release.xcconfig; sourceTree = "<group>"; };
+		6D8A817B39AA7AE9D2F686EB72957E9B /* util.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = util.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util.hpp; sourceTree = "<group>"; };
+		72B04297A29EE8A9547025E2A0733C60 /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect.hpp; sourceTree = "<group>"; };
+		72F5CB7A3CA2DBE41336A64E6B5C4E55 /* ocl_genbase.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ocl_genbase.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl_genbase.hpp; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		735405782A215B87498AB573408193A5 /* blenders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = blenders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/blenders.hpp; sourceTree = "<group>"; };
+		739993FE1EFC1E2B461FD0EC90FD2106 /* garg.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = garg.hpp; path = opencv2.framework/Versions/A/Headers/gapi/garg.hpp; sourceTree = "<group>"; };
+		73BCED25BE0176F15FAF1E9A724C6CF9 /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = version.hpp; path = opencv2.framework/Versions/A/Headers/core/version.hpp; sourceTree = "<group>"; };
+		74333C12EB24935E0B19A56F76865E65 /* opencl_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_core.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core.hpp; sourceTree = "<group>"; };
+		744570A500FF3980B952F021044A2D4B /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = opencv2.framework/Versions/A/Headers/flann/matrix.h; sourceTree = "<group>"; };
+		74937271397625A2CFD9D0FCB691655C /* opencl_clamdblas.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_clamdblas.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp; sourceTree = "<group>"; };
+		75B00D3EC0E5E5035600D5FD3071C06E /* registry.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = registry.hpp; path = opencv2.framework/Versions/A/Headers/videoio/registry.hpp; sourceTree = "<group>"; };
+		75F98665F2BF7999EC9B502B00D0F3FA /* ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ios.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/ios.h; sourceTree = "<group>"; };
+		75FA780CBAEFC734504673E9A1666389 /* mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mat.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/mat.hpp; sourceTree = "<group>"; };
+		7927DDE66B75F6CB17CC16832E6F6639 /* opencl_clamdfft.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_clamdfft.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp; sourceTree = "<group>"; };
+		7A7FF842B3542896EE9ECCAC11657F31 /* saturate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = saturate.hpp; path = opencv2.framework/Versions/A/Headers/core/saturate.hpp; sourceTree = "<group>"; };
+		7AFDCF9CB2B0A3550171C4C61B66FCB7 /* dist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dist.h; path = opencv2.framework/Versions/A/Headers/flann/dist.h; sourceTree = "<group>"; };
+		7B11A919DDBFC766493DBEE03406332F /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/gapi/cpu/imgproc.hpp; sourceTree = "<group>"; };
+		7B7B79D227179191721FE59B63B8DA44 /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utility.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/utility.hpp; sourceTree = "<group>"; };
+		7BA7604A31D71C019A2D447B506373EF /* gproto.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gproto.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gproto.hpp; sourceTree = "<group>"; };
+		7BB0457B3B04EEC247AD15797BDF8CCB /* source.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = source.hpp; path = opencv2.framework/Versions/A/Headers/gapi/streaming/source.hpp; sourceTree = "<group>"; };
+		7BD5AC5F0C0AEACB61CD81D8945330CB /* funcattrib.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = funcattrib.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/funcattrib.hpp; sourceTree = "<group>"; };
+		7C150D8C6E2B113DB4D4257C2B372961 /* emulation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = emulation.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/emulation.hpp; sourceTree = "<group>"; };
+		7C204A869D1615C1441FF8692529A031 /* type_traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_traits.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/type_traits.hpp; sourceTree = "<group>"; };
+		7EB77ED9E862FE993D6CD0E4F05ED459 /* gtyped.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gtyped.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gtyped.hpp; sourceTree = "<group>"; };
+		7F097CAED935B7A8742132452F21E4A1 /* gfluidkernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gfluidkernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/fluid/gfluidkernel.hpp; sourceTree = "<group>"; };
+		7F9B05929BF3E5117FDFD3860E574B2D /* intrin_vsx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_vsx.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_vsx.hpp; sourceTree = "<group>"; };
+		812EB42BA22EEAB562952B31F1031CAF /* functional.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = functional.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/functional.hpp; sourceTree = "<group>"; };
+		818F33080A8F2EA1B236E0B90317FB85 /* ocl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ocl.hpp; path = opencv2.framework/Versions/A/Headers/core/ocl.hpp; sourceTree = "<group>"; };
+		82CA1AFCD4BB261941A255DAB978F4C5 /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videoio.hpp; path = opencv2.framework/Versions/A/Headers/videoio.hpp; sourceTree = "<group>"; };
+		8609CA090A8B2187157036626342A738 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/fluid/core.hpp; sourceTree = "<group>"; };
+		86B80F366CDBE6AE35C46039C7E63521 /* Pods-SwiftStitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftStitch-umbrella.h"; sourceTree = "<group>"; };
+		87362540625C807CD23321CDD13E166B /* dynamic_bitset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dynamic_bitset.h; path = opencv2.framework/Versions/A/Headers/flann/dynamic_bitset.h; sourceTree = "<group>"; };
+		884220FBF70A31C89EFAADA5646453DB /* gstreaming.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gstreaming.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gstreaming.hpp; sourceTree = "<group>"; };
+		88518C3FB5D7BF8125F1599B2E3DF588 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/core.hpp; sourceTree = "<group>"; };
+		88F27A94F17239C799EC39638DC9FDE3 /* intrin_forward.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_forward.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_forward.hpp; sourceTree = "<group>"; };
+		8B5891FB9B9DD4F9D06B08BA74730F19 /* directx.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = directx.hpp; path = opencv2.framework/Versions/A/Headers/core/directx.hpp; sourceTree = "<group>"; };
+		8D1E4A39E7E91AE10027FB026E02521D /* cv_cpu_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cv_cpu_helper.h; path = opencv2.framework/Versions/A/Headers/core/cv_cpu_helper.h; sourceTree = "<group>"; };
+		8D98A886359A7C79527A0E6E3C55AC54 /* types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = types.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/types.hpp; sourceTree = "<group>"; };
+		8EE34AB1EF0AA559599B3A5321C81C7B /* opencl_svm_hsa_extension.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_svm_hsa_extension.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_hsa_extension.hpp; sourceTree = "<group>"; };
+		8FE3677D7D102A1B2C3564DCC60B581E /* exposure_compensate.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = exposure_compensate.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/exposure_compensate.hpp; sourceTree = "<group>"; };
+		90796696F2ED2B319281BCB0DAF74786 /* warpers_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warpers_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/warpers_inl.hpp; sourceTree = "<group>"; };
+		9128172174D1FC7C8DD104E76B4D29B6 /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gpu/imgproc.hpp; sourceTree = "<group>"; };
+		9163E37D30BE5C858C98756AD743C1FD /* calib3d_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = calib3d_c.h; path = opencv2.framework/Versions/A/Headers/calib3d/calib3d_c.h; sourceTree = "<group>"; };
+		91E63451D42829699271CFDF235428DC /* lsh_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_table.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_table.h; sourceTree = "<group>"; };
+		920591B62A7DF552D7801FF77D49758E /* softfloat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = softfloat.hpp; path = opencv2.framework/Versions/A/Headers/core/softfloat.hpp; sourceTree = "<group>"; };
+		9260E8CABFDE586095DEB3BEA4A1E6D5 /* opencl_core_wrappers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_core_wrappers.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp; sourceTree = "<group>"; };
+		92EA846C9C81D260E73A4B854A13B2E4 /* opencl_svm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_svm.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/opencl_svm.hpp; sourceTree = "<group>"; };
+		9470CB215C23149FFE355C3006C26A32 /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = opencv2.framework/Versions/A/Headers/ml.hpp; sourceTree = "<group>"; };
+		94F22D7D358C6B2BAC3425F6B8D89A64 /* infer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = infer.hpp; path = opencv2.framework/Versions/A/Headers/gapi/infer.hpp; sourceTree = "<group>"; };
+		9585FE6E52237440A55BA057E64531AF /* ie.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ie.hpp; path = opencv2.framework/Versions/A/Headers/gapi/infer/ie.hpp; sourceTree = "<group>"; };
+		9595C9BA7A6222E4738A1A08E7602BB6 /* affine.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = affine.hpp; path = opencv2.framework/Versions/A/Headers/core/affine.hpp; sourceTree = "<group>"; };
+		96BA2D80344C4C7925B35B05A27ADC8A /* filesystem.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = filesystem.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/filesystem.hpp; sourceTree = "<group>"; };
+		971DB18DED86B7159E7963E9FD49CD5D /* Pods-SwiftStitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStitch.release.xcconfig"; sourceTree = "<group>"; };
+		9796523E29348A7CA58F426D34165FD6 /* hierarchical_clustering_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hierarchical_clustering_index.h; path = opencv2.framework/Versions/A/Headers/flann/hierarchical_clustering_index.h; sourceTree = "<group>"; };
+		9951010F5C09098BAD28B022DDC1248B /* tracking.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tracking.hpp; path = opencv2.framework/Versions/A/Headers/video/tracking.hpp; sourceTree = "<group>"; };
+		99EF228340330623CA97DB76E2ADB796 /* types_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types_c.h; path = opencv2.framework/Versions/A/Headers/imgproc/types_c.h; sourceTree = "<group>"; };
+		9ACDAA6B3218BAD77D10D2B66A4296D5 /* opencl_gl_wrappers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_gl_wrappers.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_gl_wrappers.hpp; sourceTree = "<group>"; };
+		9B95DDB13570B8F8302E50B752465043 /* traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = traits.hpp; path = opencv2.framework/Versions/A/Headers/core/traits.hpp; sourceTree = "<group>"; };
+		9BE878CBA80CE709CD5E77775059E31F /* scalar.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = scalar.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/scalar.hpp; sourceTree = "<group>"; };
+		9CCBBD1DCDF1954214EDBE53E085E2D2 /* gasync_context.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gasync_context.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gasync_context.hpp; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC770A506782350856207181F1BBEF6 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = opencv2.framework/Versions/A/Headers/flann/config.h; sourceTree = "<group>"; };
+		9E749FA86466C9CDF87388C0C2C20ED6 /* vsx_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = vsx_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/vsx_utils.hpp; sourceTree = "<group>"; };
+		9F2F94CFA04DF46304DB980960826100 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = opencv2.framework/Versions/A/Headers/features2d/hal/interface.h; sourceTree = "<group>"; };
+		A169A50CB9A944B94AAEE882754939CA /* gcomputation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcomputation.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcomputation.hpp; sourceTree = "<group>"; };
+		A1914535484DE00F741945C2609174A2 /* gcall.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcall.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcall.hpp; sourceTree = "<group>"; };
+		A60BDB75D958638501B1CA92DAF7BD3A /* logger.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = logger.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/logger.hpp; sourceTree = "<group>"; };
+		A68CCE9C087953B94D76A0EA83844E20 /* allocator_stats.impl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = allocator_stats.impl.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.impl.hpp; sourceTree = "<group>"; };
+		A7C138430CB4BD463776F4E81BED8C75 /* autocalib.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = autocalib.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/autocalib.hpp; sourceTree = "<group>"; };
+		A97A4F8701065F5941ABD68D863BB44D /* composite_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = composite_index.h; path = opencv2.framework/Versions/A/Headers/flann/composite_index.h; sourceTree = "<group>"; };
+		A9D9680097C7813485D62DDC46AF61C2 /* reduce.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = reduce.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/reduce.hpp; sourceTree = "<group>"; };
+		A9FF04C95D8035946E1E27D3CDFB906C /* datamov_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = datamov_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/datamov_utils.hpp; sourceTree = "<group>"; };
+		AA3994D59D73F821E7AF29E551CF61F2 /* gcompiled_async.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcompiled_async.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcompiled_async.hpp; sourceTree = "<group>"; };
+		AA78D4891C3614BC213D7649046C436E /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = video.hpp; path = opencv2.framework/Versions/A/Headers/video/video.hpp; sourceTree = "<group>"; };
+		AC0C679995B93B151093E56C631AD577 /* vec_math.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = vec_math.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/vec_math.hpp; sourceTree = "<group>"; };
+		AC7018748174A53AEB849126795B5BA5 /* transform.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = transform.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/transform.hpp; sourceTree = "<group>"; };
+		ACABC90793399DFE3A731BCD7A9BEAE6 /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc/imgproc.hpp; sourceTree = "<group>"; };
+		AE69A94E3963B05AC8E32C771A7CF2E7 /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = opencv2.framework/Versions/A/Headers/flann/flann.hpp; sourceTree = "<group>"; };
+		AFBDB41141C02717158C0308F217405A /* cuda.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda.hpp; sourceTree = "<group>"; };
+		B0279DA34E28238A82C45B74D5A0C2C5 /* convert.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = convert.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/convert.hpp; sourceTree = "<group>"; };
+		B02FA770892B653A7FE906F53C123383 /* camera.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = camera.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/camera.hpp; sourceTree = "<group>"; };
+		B0555A628CEAB031CB904A7F6396B010 /* util_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = util_inl.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/util_inl.hpp; sourceTree = "<group>"; };
+		B0C5682350F9769B9DA83FCB0CCC777B /* gkernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gkernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gkernel.hpp; sourceTree = "<group>"; };
+		B12177A44978A18767E3975CDAFEFEE5 /* cvstd.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvstd.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.hpp; sourceTree = "<group>"; };
+		B19B5F1ACB834C1F5E894BE46401F708 /* lsh_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsh_index.h; path = opencv2.framework/Versions/A/Headers/flann/lsh_index.h; sourceTree = "<group>"; };
+		B1E8D363A0F1CB78E950CA767FD9CB72 /* color.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = color.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/color.hpp; sourceTree = "<group>"; };
+		B3B725B09B42FEFB8DB06FC7D7CBBA90 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = opencv2.framework/Versions/A/Headers/flann/heap.h; sourceTree = "<group>"; };
+		B42D67C4DB8046BA363D7F88347D1D6F /* throw.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = throw.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/throw.hpp; sourceTree = "<group>"; };
+		B613862710E0DBCEC85CBF0A22F15B48 /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = highgui.hpp; path = opencv2.framework/Versions/A/Headers/highgui.hpp; sourceTree = "<group>"; };
+		B6D530AFE5C9281CE310C360955CAE69 /* gcommon.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcommon.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcommon.hpp; sourceTree = "<group>"; };
+		B80C69C660539973EC289A668C186DC9 /* cap.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cap.hpp; path = opencv2.framework/Versions/A/Headers/gapi/streaming/cap.hpp; sourceTree = "<group>"; };
+		BB0C41D31E3EC69FA53F1961655AB299 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core/core.hpp; sourceTree = "<group>"; };
+		BB3373F345205A1595CC85ED07A55085 /* Pods-SwiftStitch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftStitch"; path = Pods_SwiftStitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC51FF4D6AF528A14F85711C3671BA2D /* reduce.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = reduce.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce.hpp; sourceTree = "<group>"; };
+		BD02DE3B82472856E60E2385A7B99699 /* gplaidmlkernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gplaidmlkernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/plaidml/gplaidmlkernel.hpp; sourceTree = "<group>"; };
+		BDC2000ADA63603B921263F05A51106E /* simplex_downhill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simplex_downhill.h; path = opencv2.framework/Versions/A/Headers/flann/simplex_downhill.h; sourceTree = "<group>"; };
+		BE7C739A1D6FD2EB09403BF8B333411A /* all_layers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = all_layers.hpp; path = opencv2.framework/Versions/A/Headers/dnn/all_layers.hpp; sourceTree = "<group>"; };
+		BF24E234C1EA572FFBF4382BAF651A2A /* OpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCV.debug.xcconfig; sourceTree = "<group>"; };
+		C0D95CBCCFD4D4CD9F75EBE697C2D8E0 /* inference_engine.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = inference_engine.hpp; path = opencv2.framework/Versions/A/Headers/dnn/utils/inference_engine.hpp; sourceTree = "<group>"; };
+		C2BEE7AF708533D385D20268A9CD0788 /* exception_ptr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = exception_ptr.hpp; path = opencv2.framework/Versions/A/Headers/core/detail/exception_ptr.hpp; sourceTree = "<group>"; };
+		C41646010E0F09789191DF5A58AA1966 /* timelapsers.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = timelapsers.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/timelapsers.hpp; sourceTree = "<group>"; };
+		C4E0D94D6753C1B224A862389E632B0B /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gpu/core.hpp; sourceTree = "<group>"; };
+		C4FF9985B42059C9F28C04C803DB3943 /* scan.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = scan.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/scan.hpp; sourceTree = "<group>"; };
+		C9762C9752566A86407FEF3FBC8B97FD /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h; sourceTree = "<group>"; };
+		C9E00370F4673ACBB0610B710CB176F4 /* allocator_stats.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = allocator_stats.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/allocator_stats.hpp; sourceTree = "<group>"; };
+		CA526F8954CC06E0CBE00746269E4C4A /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/imgproc.hpp; sourceTree = "<group>"; };
+		CB8441AB22DE0D63892A05DC587A37AF /* constants_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constants_c.h; path = opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h; sourceTree = "<group>"; };
+		CC6CACD6B3B82F08EE04BD9DE58C53D6 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2.framework/Versions/A/Headers/calib3d.hpp; sourceTree = "<group>"; };
+		CCE111A8DA39C74DF14EB416CC77EEDE /* opencl_core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_core.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_core.hpp; sourceTree = "<group>"; };
+		CD500E8E5A47730EDB4AB2BC58317055 /* warp_reduce.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = warp_reduce.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/warp_reduce.hpp; sourceTree = "<group>"; };
+		CF3494DEC092CC8A1E87CDBC18F1B0C6 /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgcodecs.hpp; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs.hpp; sourceTree = "<group>"; };
+		CF4856801B4D7F86258C261F371F965B /* Pods-SwiftStitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftStitch.modulemap"; sourceTree = "<group>"; };
+		D0BE90EB0378343760A67114F637DFF7 /* seam_finders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = seam_finders.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/seam_finders.hpp; sourceTree = "<group>"; };
+		D150E52E732CF019B7B361425D9F5B46 /* gcompoundkernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcompoundkernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcompoundkernel.hpp; sourceTree = "<group>"; };
+		D17AADC3C4EA31B28E5927E4C8B14591 /* cvstd.inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvstd.inl.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd.inl.hpp; sourceTree = "<group>"; };
+		D1884822F0DC37F6D8B9466642EEBB6C /* simd_intrinsics.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = simd_intrinsics.hpp; path = opencv2.framework/Versions/A/Headers/core/simd_intrinsics.hpp; sourceTree = "<group>"; };
+		D31F343AB4F862E029F435208B5F469B /* assert.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = assert.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/assert.hpp; sourceTree = "<group>"; };
+		D45E91156C27BBC9146FB6BF1B05A800 /* motion_estimators.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = motion_estimators.hpp; path = opencv2.framework/Versions/A/Headers/stitching/detail/motion_estimators.hpp; sourceTree = "<group>"; };
+		D48B98DBB0874D44627CF952A66A1C92 /* detection_based_tracker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = detection_based_tracker.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/detection_based_tracker.hpp; sourceTree = "<group>"; };
+		D4971EC04B8147D2CAB8203F4387C9F2 /* hdf5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hdf5.h; path = opencv2.framework/Versions/A/Headers/flann/hdf5.h; sourceTree = "<group>"; };
+		D544598120CA402A02922264E226B8CF /* linear_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linear_index.h; path = opencv2.framework/Versions/A/Headers/flann/linear_index.h; sourceTree = "<group>"; };
+		D54B4659052DFE313DBE3B782A9EEE31 /* cuda_types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cuda_types.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda_types.hpp; sourceTree = "<group>"; };
+		D58DC8F290499E06887B94E9443DBE38 /* autotuned_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autotuned_index.h; path = opencv2.framework/Versions/A/Headers/flann/autotuned_index.h; sourceTree = "<group>"; };
+		D62357B4DB6964686F9B0A706F6AEA40 /* Pods-SwiftStitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftStitch.debug.xcconfig"; sourceTree = "<group>"; };
+		D669CBE030AFBA835FB3C72D017850DC /* persistence.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = persistence.hpp; path = opencv2.framework/Versions/A/Headers/core/persistence.hpp; sourceTree = "<group>"; };
+		D72E3BACD9F711FADBD92F69EA47D8C2 /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = opencv2.framework/Versions/A/Headers/core/base.hpp; sourceTree = "<group>"; };
+		D97BD4F9D9A6E63D458807D4F214710E /* reduce_key_val.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = reduce_key_val.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/reduce_key_val.hpp; sourceTree = "<group>"; };
+		DA76E1CE3798889C7443EBECB0F03DC5 /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = features2d.hpp; path = opencv2.framework/Versions/A/Headers/features2d/features2d.hpp; sourceTree = "<group>"; };
+		DA8561A15E8DD07BF23D90EC78D5FC9D /* dict.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dict.hpp; path = opencv2.framework/Versions/A/Headers/dnn/dict.hpp; sourceTree = "<group>"; };
+		DACA2EFE8755467FA3F4F4CB4154A2E4 /* async_promise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = async_promise.hpp; path = opencv2.framework/Versions/A/Headers/core/detail/async_promise.hpp; sourceTree = "<group>"; };
+		DB920442801AC3F75F052D61B0B656A4 /* ocl_defs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ocl_defs.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/ocl_defs.hpp; sourceTree = "<group>"; };
+		DC016DABF7C5A6876C54CF601DA7B5E7 /* opencl_info.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_info.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/opencl_info.hpp; sourceTree = "<group>"; };
+		DD11D8778B3BF77DFE51F463DBABA7B7 /* cvstd_wrapper.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvstd_wrapper.hpp; path = opencv2.framework/Versions/A/Headers/core/cvstd_wrapper.hpp; sourceTree = "<group>"; };
+		DD75995B625F877AEF953CD646A19C2A /* opencl_svm_20.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_svm_20.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_svm_20.hpp; sourceTree = "<group>"; };
+		DDE04FEE90E6D2723300ABCC04B651DC /* gcpukernel.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcpukernel.hpp; path = opencv2.framework/Versions/A/Headers/gapi/cpu/gcpukernel.hpp; sourceTree = "<group>"; };
+		DDE23ED3E70BD319DBDBE221489CCCCE /* gtransform.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gtransform.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gtransform.hpp; sourceTree = "<group>"; };
+		DE2C5F49A1E630B969B2CFFDB94EF96E /* intrin_cpp.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_cpp.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_cpp.hpp; sourceTree = "<group>"; };
+		DEC5A4AEA009F53801D4BC17EE0C4C5B /* layer.details.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = layer.details.hpp; path = opencv2.framework/Versions/A/Headers/dnn/layer.details.hpp; sourceTree = "<group>"; };
+		DF7711EF31FD1B8CF44AFE3FB551A0A4 /* color_detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = color_detail.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/color_detail.hpp; sourceTree = "<group>"; };
+		E095D3E59FB2223DA3BC54D13E9B4967 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		E0F9FF76FEFA8FE703003FB6661B1D85 /* intrin_msa.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_msa.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_msa.hpp; sourceTree = "<group>"; };
+		E1DE65C79D4897959FEC270B7B1B7B9D /* opencl_clamdblas.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_clamdblas.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdblas.hpp; sourceTree = "<group>"; };
+		E301A8D9B5A7E1A8A4FAF5BE954FA576 /* kdtree_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kdtree_index.h; path = opencv2.framework/Versions/A/Headers/flann/kdtree_index.h; sourceTree = "<group>"; };
+		E33734C2285A56EC1187B953C3A31767 /* instrumentation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = instrumentation.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/instrumentation.hpp; sourceTree = "<group>"; };
+		E3946ABFE5D88A727FEFC443253A1078 /* opencl_clamdfft.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencl_clamdfft.hpp; path = opencv2.framework/Versions/A/Headers/core/opencl/runtime/opencl_clamdfft.hpp; sourceTree = "<group>"; };
+		E402C529DF611437F4D0C87DB6831148 /* layer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = layer.hpp; path = opencv2.framework/Versions/A/Headers/dnn/layer.hpp; sourceTree = "<group>"; };
+		E52124A8D1B8076D3571F36187A56603 /* tls.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tls.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/tls.hpp; sourceTree = "<group>"; };
+		E63758B5AD010337978499F09F2E3DC0 /* intrin_wasm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_wasm.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_wasm.hpp; sourceTree = "<group>"; };
+		E6389A1A58410D6456785A00E0B157A7 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/core.hpp; sourceTree = "<group>"; };
+		E6A311B44D2EF5921E8919B3FB66680E /* dnn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dnn.hpp; path = opencv2.framework/Versions/A/Headers/dnn/dnn.hpp; sourceTree = "<group>"; };
+		E6E96B71678B268E92690E0B2EBB9281 /* types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = types.hpp; path = opencv2.framework/Versions/A/Headers/core/types.hpp; sourceTree = "<group>"; };
+		E75D1757AF1ADC1FCF78317B45800541 /* all_indices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = all_indices.h; path = opencv2.framework/Versions/A/Headers/flann/all_indices.h; sourceTree = "<group>"; };
+		E86EE65FA149611CA7B31719E246CDC4 /* Pods-SwiftStitch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftStitch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8F11D8D999F44756551A3AFD9478FAA /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = opencv2.framework/Versions/A/Headers/flann/dummy.h; sourceTree = "<group>"; };
+		E9160D6D9F694CDCA7A4EBFA9ED74752 /* any.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = any.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/any.hpp; sourceTree = "<group>"; };
+		E9BBA133BE07ED485CC822E53A7A6C9F /* random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random.h; path = opencv2.framework/Versions/A/Headers/flann/random.h; sourceTree = "<group>"; };
+		E9E779D28A94742C9F04143B06B10E3F /* Pods-SwiftStitch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftStitch-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC888AB84C679BE2927854612838E1F0 /* utility.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utility.hpp; path = opencv2.framework/Versions/A/Headers/core/utility.hpp; sourceTree = "<group>"; };
+		ECB5BABA900C9121C92EB55D6BAF9F0A /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = opencv2.framework/Versions/A/Headers/gapi/fluid/imgproc.hpp; sourceTree = "<group>"; };
+		ECCD5A869AB994C4FDF2F4162842CACC /* shape_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape_utils.hpp; path = opencv2.framework/Versions/A/Headers/dnn/shape_utils.hpp; sourceTree = "<group>"; };
+		EEAEAC63BABC351897D38DD1C2698207 /* type_traits_detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_traits_detail.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/detail/type_traits_detail.hpp; sourceTree = "<group>"; };
+		EFBF7DAAC65F89736028D8BCC872532F /* compiler_hints.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = compiler_hints.hpp; path = opencv2.framework/Versions/A/Headers/gapi/util/compiler_hints.hpp; sourceTree = "<group>"; };
+		EFE71BB56F3E9DD3582D83AEDA3928E3 /* interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interface.h; path = opencv2.framework/Versions/A/Headers/core/hal/interface.h; sourceTree = "<group>"; };
+		F08849177DF7FE9C4A740DF104B1D307 /* operators.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = operators.hpp; path = opencv2.framework/Versions/A/Headers/gapi/operators.hpp; sourceTree = "<group>"; };
+		F0B70A8BFF6DA3CAC808D651B9347DDA /* core_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core_c.h; path = opencv2.framework/Versions/A/Headers/core/core_c.h; sourceTree = "<group>"; };
+		F15AE35216E1C378D826E488A2716A08 /* intrin.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin.hpp; sourceTree = "<group>"; };
+		F1AF9E38DFC4E83C172C77EDBF5863BD /* kmeans_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kmeans_index.h; path = opencv2.framework/Versions/A/Headers/flann/kmeans_index.h; sourceTree = "<group>"; };
+		F2B17DF16B579899B466FB14CA0C6190 /* operations.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = operations.hpp; path = opencv2.framework/Versions/A/Headers/core/operations.hpp; sourceTree = "<group>"; };
+		F428400BF9F3AA8232F26A749652A255 /* cvdefs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cvdefs.hpp; path = opencv2.framework/Versions/A/Headers/gapi/own/cvdefs.hpp; sourceTree = "<group>"; };
+		F4649BC5878F6A261D0951941C2D40E7 /* opencv_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv_modules.hpp; path = opencv2.framework/Versions/A/Headers/opencv_modules.hpp; sourceTree = "<group>"; };
+		F5A4D11EE581DA4B17507255CEC527B8 /* imgcodecs_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgcodecs_c.h; path = opencv2.framework/Versions/A/Headers/imgcodecs/imgcodecs_c.h; sourceTree = "<group>"; };
+		F736D6CD26319CC414AEED915477CEFD /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = objdetect.hpp; path = opencv2.framework/Versions/A/Headers/objdetect/objdetect.hpp; sourceTree = "<group>"; };
+		F96F4A9CCDEE9A26AD2798B91318F8B4 /* bindings_utils.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = bindings_utils.hpp; path = opencv2.framework/Versions/A/Headers/core/bindings_utils.hpp; sourceTree = "<group>"; };
+		FAA1E8BE32CD9F3AD88CAD85DCB15B13 /* stitching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stitching.hpp; path = opencv2.framework/Versions/A/Headers/stitching.hpp; sourceTree = "<group>"; };
+		FBA487AC0E931E186B6042A6267BED30 /* logtag.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = logtag.hpp; path = opencv2.framework/Versions/A/Headers/core/utils/logtag.hpp; sourceTree = "<group>"; };
+		FC7F3596FE7923F5D54EE4C5B5B26C22 /* gcompiled.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gcompiled.hpp; path = opencv2.framework/Versions/A/Headers/gapi/gcompiled.hpp; sourceTree = "<group>"; };
+		FCDD6510654BE1B4D01A98C475647013 /* constants_c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = constants_c.h; path = opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h; sourceTree = "<group>"; };
+		FCEFFBAEFF439DEC429E51C3BD372B61 /* simd_functions.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = simd_functions.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/simd_functions.hpp; sourceTree = "<group>"; };
+		FD1E84A3542E0ED03B818C32BA21D730 /* intrin_avx512.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrin_avx512.hpp; path = opencv2.framework/Versions/A/Headers/core/hal/intrin_avx512.hpp; sourceTree = "<group>"; };
+		FE120A2635FB585DCBCF804763C370E4 /* filters.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = filters.hpp; path = opencv2.framework/Versions/A/Headers/core/cuda/filters.hpp; sourceTree = "<group>"; };
+		FE5CA10594F946DFEB0A6B7BE2083A92 /* check.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = check.hpp; path = opencv2.framework/Versions/A/Headers/core/check.hpp; sourceTree = "<group>"; };
+		FFD6F74C7A10480F3FE9348A5A70D89B /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = opencv2.framework/Versions/A/Headers/gapi/cpu/core.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15F8B29E12CC730FE4E0742428993FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6001ED40523F5C90DCE2E85B2A72AE09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2997D261395DDF1D69CF512BCE84A2BB /* Pods-SwiftStitch */ = {
+			isa = PBXGroup;
+			children = (
+				CF4856801B4D7F86258C261F371F965B /* Pods-SwiftStitch.modulemap */,
+				E86EE65FA149611CA7B31719E246CDC4 /* Pods-SwiftStitch-acknowledgements.markdown */,
+				E9E779D28A94742C9F04143B06B10E3F /* Pods-SwiftStitch-acknowledgements.plist */,
+				6373889589589E0D1FBF2D0F30660D43 /* Pods-SwiftStitch-dummy.m */,
+				5B9F8ED4C36BC773DFB440ED64CF2054 /* Pods-SwiftStitch-Info.plist */,
+				86B80F366CDBE6AE35C46039C7E63521 /* Pods-SwiftStitch-umbrella.h */,
+				D62357B4DB6964686F9B0A706F6AEA40 /* Pods-SwiftStitch.debug.xcconfig */,
+				971DB18DED86B7159E7963E9FD49CD5D /* Pods-SwiftStitch.release.xcconfig */,
+			);
+			name = "Pods-SwiftStitch";
+			path = "Target Support Files/Pods-SwiftStitch";
+			sourceTree = "<group>";
+		};
+		29BC5C24BFF5B7A727208EEEFB424919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3373F345205A1595CC85ED07A55085 /* Pods-SwiftStitch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F51CA227EE243BE1711AEFDF50F63D2 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				9595C9BA7A6222E4738A1A08E7602BB6 /* affine.hpp */,
+				E75D1757AF1ADC1FCF78317B45800541 /* all_indices.h */,
+				BE7C739A1D6FD2EB09403BF8B333411A /* all_layers.hpp */,
+				5124EB7B7D9442890F715EE5CDAC0675 /* allocator.h */,
+				C9E00370F4673ACBB0610B710CB176F4 /* allocator_stats.hpp */,
+				A68CCE9C087953B94D76A0EA83844E20 /* allocator_stats.impl.hpp */,
+				25B1CCAD44A3D6B25858A25C06CE92EC /* any.h */,
+				E9160D6D9F694CDCA7A4EBFA9ED74752 /* any.hpp */,
+				D31F343AB4F862E029F435208B5F469B /* assert.hpp */,
+				0313CFD6DD5C801766C417864D69FB81 /* async.hpp */,
+				DACA2EFE8755467FA3F4F4CB4154A2E4 /* async_promise.hpp */,
+				A7C138430CB4BD463776F4E81BED8C75 /* autocalib.hpp */,
+				D58DC8F290499E06887B94E9443DBE38 /* autotuned_index.h */,
+				67A23792E85B79040E53EC276BCCBBEC /* background_segm.hpp */,
+				D72E3BACD9F711FADBD92F69EA47D8C2 /* base.hpp */,
+				F96F4A9CCDEE9A26AD2798B91318F8B4 /* bindings_utils.hpp */,
+				735405782A215B87498AB573408193A5 /* blenders.hpp */,
+				1779C0050232C6A1BC3B6E4509085AB5 /* block.hpp */,
+				22E59D996F68C9578DD8B418E259B630 /* border_interpolate.hpp */,
+				379CB07B19BF48F657F09089195093DC /* bufferpool.hpp */,
+				CC6CACD6B3B82F08EE04BD9DE58C53D6 /* calib3d.hpp */,
+				2B247059863A0F69896B5FA2F253D007 /* calib3d.hpp */,
+				9163E37D30BE5C858C98756AD743C1FD /* calib3d_c.h */,
+				B02FA770892B653A7FE906F53C123383 /* camera.hpp */,
+				B80C69C660539973EC289A668C186DC9 /* cap.hpp */,
+				5195D841DCD705F98D08CFF654B4E9A8 /* cap_ios.h */,
+				FE5CA10594F946DFEB0A6B7BE2083A92 /* check.hpp */,
+				B1E8D363A0F1CB78E950CA767FD9CB72 /* color.hpp */,
+				DF7711EF31FD1B8CF44AFE3FB551A0A4 /* color_detail.hpp */,
+				0CFE9C604453BC095FDF979C70BBC325 /* common.hpp */,
+				EFBF7DAAC65F89736028D8BCC872532F /* compiler_hints.hpp */,
+				A97A4F8701065F5941ABD68D863BB44D /* composite_index.h */,
+				9DC770A506782350856207181F1BBEF6 /* config.h */,
+				0D569EB111C27E5D9A0D1F7D6CDC18EE /* constants_c.h */,
+				CB8441AB22DE0D63892A05DC587A37AF /* constants_c.h */,
+				1B8766A78A7B7ADACE7D97BD538669A1 /* constants_c.h */,
+				FCDD6510654BE1B4D01A98C475647013 /* constants_c.h */,
+				B0279DA34E28238A82C45B74D5A0C2C5 /* convert.hpp */,
+				E6389A1A58410D6456785A00E0B157A7 /* core.hpp */,
+				BB0C41D31E3EC69FA53F1961655AB299 /* core.hpp */,
+				88518C3FB5D7BF8125F1599B2E3DF588 /* core.hpp */,
+				FFD6F74C7A10480F3FE9348A5A70D89B /* core.hpp */,
+				8609CA090A8B2187157036626342A738 /* core.hpp */,
+				C4E0D94D6753C1B224A862389E632B0B /* core.hpp */,
+				51B4F1A91ED485BA368F27D4AF0E2089 /* core.hpp */,
+				660A601DDAE1F0CEFA6259409C5C41DC /* core.hpp */,
+				F0B70A8BFF6DA3CAC808D651B9347DDA /* core_c.h */,
+				AFBDB41141C02717158C0308F217405A /* cuda.hpp */,
+				01DD78A7840879D6835ECE4DE4654800 /* cuda.hpp */,
+				1D1B0787DE5986CE7BD867CA5724834C /* cuda.inl.hpp */,
+				30695FE9F2B25E2702C27AFA44CE7BE7 /* cuda_stream_accessor.hpp */,
+				D54B4659052DFE313DBE3B782A9EEE31 /* cuda_types.hpp */,
+				5AD2EAB7DB9DC4ED97682900DB7E9C77 /* cv_cpu_dispatch.h */,
+				8D1E4A39E7E91AE10027FB026E02521D /* cv_cpu_helper.h */,
+				0C1C96C14169BE1A299101539635C2B5 /* cvconfig.h */,
+				1363FF6629169596D99463A5E9ABCB6D /* cvdef.h */,
+				F428400BF9F3AA8232F26A749652A255 /* cvdefs.hpp */,
+				B12177A44978A18767E3975CDAFEFEE5 /* cvstd.hpp */,
+				D17AADC3C4EA31B28E5927E4C8B14591 /* cvstd.inl.hpp */,
+				DD11D8778B3BF77DFE51F463DBABA7B7 /* cvstd_wrapper.hpp */,
+				A9FF04C95D8035946E1E27D3CDFB906C /* datamov_utils.hpp */,
+				2A3671D17E4EEEFD6A3FE5A4C8E0B8AD /* defines.h */,
+				D48B98DBB0874D44627CF952A66A1C92 /* detection_based_tracker.hpp */,
+				DA8561A15E8DD07BF23D90EC78D5FC9D /* dict.hpp */,
+				8B5891FB9B9DD4F9D06B08BA74730F19 /* directx.hpp */,
+				7AFDCF9CB2B0A3550171C4C61B66FCB7 /* dist.h */,
+				16D50ADD4C3702859309FD6467E9C92A /* dnn.hpp */,
+				E6A311B44D2EF5921E8919B3FB66680E /* dnn.hpp */,
+				5900782493FB3B6BDEE924110BF307D9 /* dnn.inl.hpp */,
+				E8F11D8D999F44756551A3AFD9478FAA /* dummy.h */,
+				87362540625C807CD23321CDD13E166B /* dynamic_bitset.h */,
+				17A7C5E6DA5477CDBF9E3DAFDB1B41B5 /* dynamic_smem.hpp */,
+				47DB3CE4CBE4316C084D6313642BDDA1 /* eigen.hpp */,
+				7C150D8C6E2B113DB4D4257C2B372961 /* emulation.hpp */,
+				C2BEE7AF708533D385D20268A9CD0788 /* exception_ptr.hpp */,
+				10164580AFB39117F218EA3D5984DF2D /* exports.hpp */,
+				8FE3677D7D102A1B2C3564DCC60B581E /* exposure_compensate.hpp */,
+				294DCC9D6AE090F7791E085A28808083 /* fast_math.hpp */,
+				1948B009971819EBFE21F18E4966590B /* features2d.hpp */,
+				DA76E1CE3798889C7443EBECB0F03DC5 /* features2d.hpp */,
+				96BA2D80344C4C7925B35B05A27ADC8A /* filesystem.hpp */,
+				FE120A2635FB585DCBCF804763C370E4 /* filters.hpp */,
+				499E8DD807B411F4C5DF7D22F08AC2C8 /* flann.hpp */,
+				AE69A94E3963B05AC8E32C771A7CF2E7 /* flann.hpp */,
+				1E6EB4116242A937CFD4EB4A15A69BAF /* flann_base.hpp */,
+				7BD5AC5F0C0AEACB61CD81D8945330CB /* funcattrib.hpp */,
+				812EB42BA22EEAB562952B31F1031CAF /* functional.hpp */,
+				54E4D42A8E0E214478EAB648297CFA5E /* gapi.hpp */,
+				739993FE1EFC1E2B461FD0EC90FD2106 /* garg.hpp */,
+				2EF37C62819917780191C147D41DFE2C /* garray.hpp */,
+				9CCBBD1DCDF1954214EDBE53E085E2D2 /* gasync_context.hpp */,
+				A1914535484DE00F741945C2609174A2 /* gcall.hpp */,
+				3556AE03A931205C3D5C8BBE822B0602 /* gcgraph.hpp */,
+				B6D530AFE5C9281CE310C360955CAE69 /* gcommon.hpp */,
+				FC7F3596FE7923F5D54EE4C5B5B26C22 /* gcompiled.hpp */,
+				AA3994D59D73F821E7AF29E551CF61F2 /* gcompiled_async.hpp */,
+				D150E52E732CF019B7B361425D9F5B46 /* gcompoundkernel.hpp */,
+				A169A50CB9A944B94AAEE882754939CA /* gcomputation.hpp */,
+				06AAE531998292E773269499AE569133 /* gcomputation_async.hpp */,
+				DDE04FEE90E6D2723300ABCC04B651DC /* gcpukernel.hpp */,
+				4734E2B89063823D20C14FA789D0849E /* general.h */,
+				066ABA9076353EDF522F2564764A7F09 /* gfluidbuffer.hpp */,
+				7F097CAED935B7A8742132452F21E4A1 /* gfluidkernel.hpp */,
+				06F81ABE56D30ECE1D90D7C6BA031A94 /* ggpukernel.hpp */,
+				B0C5682350F9769B9DA83FCB0CCC777B /* gkernel.hpp */,
+				57C8DF4750BE1B0D5BA4D563C1E856E9 /* gmat.hpp */,
+				55BEDCC62A8B78DE0B7DC3875A631F9B /* gmetaarg.hpp */,
+				54D251A5B48CAE85C74AE5333277DBF9 /* goclkernel.hpp */,
+				32DB7463DF920CE3933914C110ABD500 /* gopaque.hpp */,
+				BD02DE3B82472856E60E2385A7B99699 /* gplaidmlkernel.hpp */,
+				7BA7604A31D71C019A2D447B506373EF /* gproto.hpp */,
+				3634391C454396A53A3A0455FDB389A3 /* ground_truth.h */,
+				1A2FE2AD3BF59C9FFA3F27703AF83B91 /* gscalar.hpp */,
+				884220FBF70A31C89EFAADA5646453DB /* gstreaming.hpp */,
+				DDE23ED3E70BD319DBDBE221489CCCCE /* gtransform.hpp */,
+				234E9452873F0CC21E9E3E892686B8FB /* gtype_traits.hpp */,
+				7EB77ED9E862FE993D6CD0E4F05ED459 /* gtyped.hpp */,
+				66A01EA8C4F684B10F4FF543DB9A1FBA /* hal.hpp */,
+				474D24597140FFBFDB7836BE2AFA5676 /* hal.hpp */,
+				D4971EC04B8147D2CAB8203F4387C9F2 /* hdf5.h */,
+				B3B725B09B42FEFB8DB06FC7D7CBBA90 /* heap.h */,
+				9796523E29348A7CA58F426D34165FD6 /* hierarchical_clustering_index.h */,
+				B613862710E0DBCEC85CBF0A22F15B48 /* highgui.hpp */,
+				1642B9FA823708A1D1AA7DE2F34AC62C /* highgui.hpp */,
+				5644546119DF7339593B044FF91EB43B /* highgui_c.h */,
+				9585FE6E52237440A55BA057E64531AF /* ie.hpp */,
+				246BA28AC63F70A62A112526AABE3D52 /* imgcodecs.hpp */,
+				CF3494DEC092CC8A1E87CDBC18F1B0C6 /* imgcodecs.hpp */,
+				F5A4D11EE581DA4B17507255CEC527B8 /* imgcodecs_c.h */,
+				7B11A919DDBFC766493DBEE03406332F /* imgproc.hpp */,
+				ECB5BABA900C9121C92EB55D6BAF9F0A /* imgproc.hpp */,
+				9128172174D1FC7C8DD104E76B4D29B6 /* imgproc.hpp */,
+				38516EEF19A26CDF902A0A45B33060A8 /* imgproc.hpp */,
+				3C78AF6DDD0A51D29382DC82EF81BA5C /* imgproc.hpp */,
+				CA526F8954CC06E0CBE00746269E4C4A /* imgproc.hpp */,
+				ACABC90793399DFE3A731BCD7A9BEAE6 /* imgproc.hpp */,
+				3E214E6CC849D2C00AE32CDBCC26DE6E /* imgproc_c.h */,
+				154FD2CD0CEFB35BDF09C75000355B5A /* index_testing.h */,
+				94F22D7D358C6B2BAC3425F6B8D89A64 /* infer.hpp */,
+				C0D95CBCCFD4D4CD9F75EBE697C2D8E0 /* inference_engine.hpp */,
+				E33734C2285A56EC1187B953C3A31767 /* instrumentation.hpp */,
+				EFE71BB56F3E9DD3582D83AEDA3928E3 /* interface.h */,
+				9F2F94CFA04DF46304DB980960826100 /* interface.h */,
+				C9762C9752566A86407FEF3FBC8B97FD /* interface.h */,
+				F15AE35216E1C378D826E488A2716A08 /* intrin.hpp */,
+				1A7A934E8E456B18B0C3FE0AF2FDAAF9 /* intrin_avx.hpp */,
+				FD1E84A3542E0ED03B818C32BA21D730 /* intrin_avx512.hpp */,
+				DE2C5F49A1E630B969B2CFFDB94EF96E /* intrin_cpp.hpp */,
+				88F27A94F17239C799EC39638DC9FDE3 /* intrin_forward.hpp */,
+				E0F9FF76FEFA8FE703003FB6661B1D85 /* intrin_msa.hpp */,
+				61EA50C8CD8ED8E4A374DC8F1212DFD9 /* intrin_neon.hpp */,
+				6697277CA91D3325C6C3BB058AA47AA2 /* intrin_sse.hpp */,
+				2DE7A585CDF7122936C88597C28BF84C /* intrin_sse_em.hpp */,
+				7F9B05929BF3E5117FDFD3860E574B2D /* intrin_vsx.hpp */,
+				E63758B5AD010337978499F09F2E3DC0 /* intrin_wasm.hpp */,
+				75F98665F2BF7999EC9B502B00D0F3FA /* ios.h */,
+				E301A8D9B5A7E1A8A4FAF5BE954FA576 /* kdtree_index.h */,
+				54504DE85DBD5DA2E200B8BD7779FA89 /* kdtree_single_index.h */,
+				F1AF9E38DFC4E83C172C77EDBF5863BD /* kmeans_index.h */,
+				E402C529DF611437F4D0C87DB6831148 /* layer.hpp */,
+				DEC5A4AEA009F53801D4BC17EE0C4C5B /* layer.details.hpp */,
+				0AF775E2D2A7BD3E3A4AC12736BB48BC /* limits.hpp */,
+				D544598120CA402A02922264E226B8CF /* linear_index.h */,
+				3F4BD69928822D04D87B61421474376E /* logger.h */,
+				A60BDB75D958638501B1CA92DAF7BD3A /* logger.hpp */,
+				5EFA6385E0EF37E0444BB9DF43C9BF2D /* logger.defines.hpp */,
+				FBA487AC0E931E186B6042A6267BED30 /* logtag.hpp */,
+				B19B5F1ACB834C1F5E894BE46401F708 /* lsh_index.h */,
+				91E63451D42829699271CFDF235428DC /* lsh_table.h */,
+				12BAACA98D63721EA2D41E7F6BD32A06 /* mat.hpp */,
+				75FA780CBAEFC734504673E9A1666389 /* mat.hpp */,
+				267E2813D918F81C5C06F899BC17D440 /* mat.inl.hpp */,
+				379586404D434DF0BF1E0D8271BC6131 /* matchers.hpp */,
+				744570A500FF3980B952F021044A2D4B /* matrix.h */,
+				4C09155D3E6E86EB0F5BCE583DB6E3C1 /* matx.hpp */,
+				1D99654F7B39A9577D55947F2ECA3870 /* miniflann.hpp */,
+				9470CB215C23149FFE355C3006C26A32 /* ml.hpp */,
+				515EA336EC9984DB27BA0B09312AA4C9 /* ml.hpp */,
+				5D8F4C2B75054BB10A2E78736967D7B8 /* ml.inl.hpp */,
+				D45E91156C27BBC9146FB6BF1B05A800 /* motion_estimators.hpp */,
+				40AFD29DE74C26C2709B8F0898FF5F6A /* msa_macros.h */,
+				035937ACD4778B0A724932B0FDDC16F7 /* neon_utils.hpp */,
+				07DFEDE603171177ED2F0B57E037B4B2 /* nn_index.h */,
+				72B04297A29EE8A9547025E2A0733C60 /* objdetect.hpp */,
+				F736D6CD26319CC414AEED915477CEFD /* objdetect.hpp */,
+				0E7CD5BC26CA896FD02DD877946B3DFC /* object_factory.h */,
+				818F33080A8F2EA1B236E0B90317FB85 /* ocl.hpp */,
+				DB920442801AC3F75F052D61B0B656A4 /* ocl_defs.hpp */,
+				72F5CB7A3CA2DBE41336A64E6B5C4E55 /* ocl_genbase.hpp */,
+				74937271397625A2CFD9D0FCB691655C /* opencl_clamdblas.hpp */,
+				E1DE65C79D4897959FEC270B7B1B7B9D /* opencl_clamdblas.hpp */,
+				7927DDE66B75F6CB17CC16832E6F6639 /* opencl_clamdfft.hpp */,
+				E3946ABFE5D88A727FEFC443253A1078 /* opencl_clamdfft.hpp */,
+				74333C12EB24935E0B19A56F76865E65 /* opencl_core.hpp */,
+				CCE111A8DA39C74DF14EB416CC77EEDE /* opencl_core.hpp */,
+				9260E8CABFDE586095DEB3BEA4A1E6D5 /* opencl_core_wrappers.hpp */,
+				34805E1E2533E9593FD92F4A0FD554B9 /* opencl_core_wrappers.hpp */,
+				16C8FE84C58E23CDDAE9C18B4C8B7326 /* opencl_gl.hpp */,
+				5E5FFAB4F4AE2EDFA0345697074ECA32 /* opencl_gl.hpp */,
+				659F16FF1495446227875A5E7A9ABE7E /* opencl_gl_wrappers.hpp */,
+				9ACDAA6B3218BAD77D10D2B66A4296D5 /* opencl_gl_wrappers.hpp */,
+				DC016DABF7C5A6876C54CF601DA7B5E7 /* opencl_info.hpp */,
+				92EA846C9C81D260E73A4B854A13B2E4 /* opencl_svm.hpp */,
+				DD75995B625F877AEF953CD646A19C2A /* opencl_svm_20.hpp */,
+				2CEE0B3023A2B7AA6DEB5CEC1C0A24A4 /* opencl_svm_definitions.hpp */,
+				8EE34AB1EF0AA559599B3A5321C81C7B /* opencl_svm_hsa_extension.hpp */,
+				6875CB132F6ECDDB27990143E7DD98E8 /* opencv.hpp */,
+				2B56A34D01CEE6D4B96B09D3FE0C77CB /* opencv_includes.hpp */,
+				F4649BC5878F6A261D0951941C2D40E7 /* opencv_modules.hpp */,
+				6351A98BCAB5845FB95FA18369121886 /* opengl.hpp */,
+				F2B17DF16B579899B466FB14CA0C6190 /* operations.hpp */,
+				F08849177DF7FE9C4A740DF104B1D307 /* operators.hpp */,
+				3C902698AC3D729F23A76CFC8775B055 /* optim.hpp */,
+				52701005219D352CA6D77937B78BFCF7 /* optional.hpp */,
+				1898B392B954E75FB7A4F6D1C5FE333B /* ovx.hpp */,
+				502A19B6F1F8C38337E79333FE65513D /* params.h */,
+				D669CBE030AFBA835FB3C72D017850DC /* persistence.hpp */,
+				57DA6B33C50CAD24A2C6FFCC9685851C /* photo.hpp */,
+				3288C89AB39131A2F92D23DC01194692 /* photo.hpp */,
+				3BE929E0A42B5D6AE551AF411EBDD84C /* plaidml.hpp */,
+				E9BBA133BE07ED485CC822E53A7A6C9F /* random.h */,
+				BC51FF4D6AF528A14F85711C3671BA2D /* reduce.hpp */,
+				A9D9680097C7813485D62DDC46AF61C2 /* reduce.hpp */,
+				D97BD4F9D9A6E63D458807D4F214710E /* reduce_key_val.hpp */,
+				75B00D3EC0E5E5035600D5FD3071C06E /* registry.hpp */,
+				112354607F804ABE563B1F23F3CA7D10 /* render.hpp */,
+				31B4107B2ECE1E6AA5C803364F832D7C /* render.hpp */,
+				266F2018505BB9888ABE810C53A475F2 /* result_set.h */,
+				0611814E4450203EAE8B38FF1D5498EC /* sampling.h */,
+				7A7FF842B3542896EE9ECCAC11657F31 /* saturate.hpp */,
+				2EF322C797613E2542341B40E066185F /* saturate.hpp */,
+				678395A8CB8FD0E9A5D637CA6AE444B1 /* saturate_cast.hpp */,
+				49E48D223949194FF88E158301B8AD9D /* saving.h */,
+				9BE878CBA80CE709CD5E77775059E31F /* scalar.hpp */,
+				C4FF9985B42059C9F28C04C803DB3943 /* scan.hpp */,
+				D0BE90EB0378343760A67114F637DFF7 /* seam_finders.hpp */,
+				ECCD5A869AB994C4FDF2F4162842CACC /* shape_utils.hpp */,
+				FCEFFBAEFF439DEC429E51C3BD372B61 /* simd_functions.hpp */,
+				D1884822F0DC37F6D8B9466642EEBB6C /* simd_intrinsics.hpp */,
+				464CADA2E0EA701B8418554E8981CD3A /* simd_utils.impl.hpp */,
+				BDC2000ADA63603B921263F05A51106E /* simplex_downhill.h */,
+				920591B62A7DF552D7801FF77D49758E /* softfloat.hpp */,
+				7BB0457B3B04EEC247AD15797BDF8CCB /* source.hpp */,
+				5BF409664BF836A22B8DF4CDF2217860 /* sse_utils.hpp */,
+				FAA1E8BE32CD9F3AD88CAD85DCB15B13 /* stitching.hpp */,
+				B42D67C4DB8046BA363D7F88347D1D6F /* throw.hpp */,
+				C41646010E0F09789191DF5A58AA1966 /* timelapsers.hpp */,
+				658DEDEE573A7FBD7E158811A7D809FD /* timer.h */,
+				E52124A8D1B8076D3571F36187A56603 /* tls.hpp */,
+				5CF82FA06784EBCD29C84499BAC4FA96 /* trace.hpp */,
+				9951010F5C09098BAD28B022DDC1248B /* tracking.hpp */,
+				9B95DDB13570B8F8302E50B752465043 /* traits.hpp */,
+				AC7018748174A53AEB849126795B5BA5 /* transform.hpp */,
+				217BF946A5D4A61EC101D4B2F837B268 /* transform_detail.hpp */,
+				7C204A869D1615C1441FF8692529A031 /* type_traits.hpp */,
+				EEAEAC63BABC351897D38DD1C2698207 /* type_traits_detail.hpp */,
+				E6E96B71678B268E92690E0B2EBB9281 /* types.hpp */,
+				8D98A886359A7C79527A0E6E3C55AC54 /* types.hpp */,
+				5D5F7FBF7D6D5A13476C7D5849CC4DED /* types_c.h */,
+				99EF228340330623CA97DB76E2ADB796 /* types_c.h */,
+				088A4D9836F586DEE36A0E9D9F281770 /* util.hpp */,
+				6D8A817B39AA7AE9D2F686EB72957E9B /* util.hpp */,
+				B0555A628CEAB031CB904A7F6396B010 /* util_inl.hpp */,
+				7B7B79D227179191721FE59B63B8DA44 /* utility.hpp */,
+				EC888AB84C679BE2927854612838E1F0 /* utility.hpp */,
+				61E782E7F81871DB7EBCF19130C429F2 /* va_intel.hpp */,
+				15EC7175EF4F552C93D951F36ADFD4B9 /* variant.hpp */,
+				29597D1088A682834DCD869224A5E537 /* vec_distance.hpp */,
+				54D95967D17A99AC676DBC466A0C01C5 /* vec_distance_detail.hpp */,
+				AC0C679995B93B151093E56C631AD577 /* vec_math.hpp */,
+				2531C79BFD419025934BEF9639E5967D /* vec_traits.hpp */,
+				73BCED25BE0176F15FAF1E9A724C6CF9 /* version.hpp */,
+				5E2CB0C051EB6A184350FA39E742E28F /* version.hpp */,
+				3B813EEBB435E12762480E67A0B4DB1B /* video.hpp */,
+				AA78D4891C3614BC213D7649046C436E /* video.hpp */,
+				82CA1AFCD4BB261941A255DAB978F4C5 /* videoio.hpp */,
+				42A1E6B7D4D6E297F56BA91CFF508C0E /* videoio.hpp */,
+				0536BBC40299F76255ECAC18C6ABE4AD /* videoio_c.h */,
+				9E749FA86466C9CDF87388C0C2C20ED6 /* vsx_utils.hpp */,
+				36DB2F43D79BD94BA2EC39D116DFAACA /* warp.hpp */,
+				CD500E8E5A47730EDB4AB2BC58317055 /* warp_reduce.hpp */,
+				29F426FAC79C08C6F210586D317970F9 /* warp_shuffle.hpp */,
+				2DF5033BC730B028FA8708D9FC365C9C /* warpers.hpp */,
+				23778D4324E1DFACA703D75313429AF5 /* warpers.hpp */,
+				90796696F2ED2B319281BCB0DAF74786 /* warpers_inl.hpp */,
+				40B962470326FD6BACBAE37A3D0361B9 /* world.hpp */,
+				9424845C7E49E5C68459778226C07734 /* Frameworks */,
+				DD2A2B146EA02D02B7D019D7E95315B4 /* Support Files */,
+			);
+			name = OpenCV;
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		9424845C7E49E5C68459778226C07734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E095D3E59FB2223DA3BC54D13E9B4967 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07D51FDA4EC5C303FD09FA417566A49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2997D261395DDF1D69CF512BCE84A2BB /* Pods-SwiftStitch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D0DFE3FA25E973AF540AFE1961A69A26 /* Pods */,
+				29BC5C24BFF5B7A727208EEEFB424919 /* Products */,
+				C07D51FDA4EC5C303FD09FA417566A49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DFE3FA25E973AF540AFE1961A69A26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F51CA227EE243BE1711AEFDF50F63D2 /* OpenCV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2A2B146EA02D02B7D019D7E95315B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF24E234C1EA572FFBF4382BAF651A2A /* OpenCV.debug.xcconfig */,
+				6C440FF12E21C32B2714C778A031B7E5 /* OpenCV.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenCV";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD73BC679426100855C4BB78D4BD2298 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FCE9E708E66F9A38DDCE29929D85A4 /* Pods-SwiftStitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03A5D9E07594B318E582A5E2F45B7951 /* Pods-SwiftStitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87568721FB1E83338C80D279B58271BA /* Build configuration list for PBXNativeTarget "Pods-SwiftStitch" */;
+			buildPhases = (
+				FD73BC679426100855C4BB78D4BD2298 /* Headers */,
+				6C832C5A960754E7E1FB343E78859C29 /* Sources */,
+				B15F8B29E12CC730FE4E0742428993FB /* Frameworks */,
+				8C60EEE2FD5A4224DA197028AFB57272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F694FFBA37847B358D490DD917AB4D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftStitch";
+			productName = Pods_SwiftStitch;
+			productReference = BB3373F345205A1595CC85ED07A55085 /* Pods-SwiftStitch */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29BC5C24BFF5B7A727208EEEFB424919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C80449F84CF910DF6AD6AFDDE039F2A /* OpenCV */,
+				03A5D9E07594B318E582A5E2F45B7951 /* Pods-SwiftStitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C60EEE2FD5A4224DA197028AFB57272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C832C5A960754E7E1FB343E78859C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFDAC2C0252181C972870691A3BEAAE /* Pods-SwiftStitch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F694FFBA37847B358D490DD917AB4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenCV;
+			target = 2C80449F84CF910DF6AD6AFDDE039F2A /* OpenCV */;
+			targetProxy = EDB04F9DB8E4C1C8388425DED09587A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BD71CD69507B58DCE08E4BF5C0E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		280CBEAB0354DDBC341510E41B3F1D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4AB46416DBDE3B1CC779FB63A3925D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971DB18DED86B7159E7963E9FD49CD5D /* Pods-SwiftStitch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStitch/Pods-SwiftStitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStitch/Pods-SwiftStitch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FDEAD7BDEFAAE659FA1515FBBD9B2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C440FF12E21C32B2714C778A031B7E5 /* OpenCV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1DD2DD76AC603B063B5F407E0801CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62357B4DB6964686F9B0A706F6AEA40 /* Pods-SwiftStitch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftStitch/Pods-SwiftStitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftStitch/Pods-SwiftStitch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9077C3F2E9C37C80DB48566D4A854D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF24E234C1EA572FFBF4382BAF651A2A /* OpenCV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BD71CD69507B58DCE08E4BF5C0E278 /* Debug */,
+				280CBEAB0354DDBC341510E41B3F1D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87568721FB1E83338C80D279B58271BA /* Build configuration list for PBXNativeTarget "Pods-SwiftStitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1DD2DD76AC603B063B5F407E0801CF /* Debug */,
+				4AB46416DBDE3B1CC779FB63A3925D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6190B337FB4264B844753D51FB17E5 /* Build configuration list for PBXAggregateTarget "OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9077C3F2E9C37C80DB48566D4A854D63 /* Debug */,
+				4FDEAD7BDEFAAE659FA1515FBBD9B2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
