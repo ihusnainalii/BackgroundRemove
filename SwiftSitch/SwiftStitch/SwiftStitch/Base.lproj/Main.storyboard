@@ -109,10 +109,12 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Tbk-T1-gh5" secondAttribute="trailing" id="9bd-Mj-6FS"/>
-                                    <constraint firstAttribute="bottom" secondItem="Tbk-T1-gh5" secondAttribute="bottom" id="Ma8-5u-S5H"/>
-                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="top" secondItem="Gho-Bl-Ac3" secondAttribute="top" id="Urb-oF-62N"/>
-                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="leading" secondItem="Gho-Bl-Ac3" secondAttribute="leading" id="yta-cd-ylQ"/>
+                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="leading" secondItem="Gho-Bl-Ac3" secondAttribute="leading" id="Cju-fw-Bng"/>
+                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="centerX" secondItem="Gho-Bl-Ac3" secondAttribute="centerX" id="VgU-Un-W3e"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tbk-T1-gh5" secondAttribute="trailing" id="YKg-cB-5nQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tbk-T1-gh5" secondAttribute="bottom" id="Z02-Z1-GLt"/>
+                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="centerY" secondItem="Gho-Bl-Ac3" secondAttribute="centerY" id="xBh-qu-ren"/>
+                                    <constraint firstItem="Tbk-T1-gh5" firstAttribute="top" secondItem="Gho-Bl-Ac3" secondAttribute="top" id="zR2-WS-wsG"/>
                                 </constraints>
                             </scrollView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWn-3O-URf">
@@ -162,14 +164,14 @@
                         <viewLayoutGuide key="safeArea" id="esB-cG-XCn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Gho-Bl-Ac3" firstAttribute="leading" secondItem="Z0h-it-UNC" secondAttribute="leading" id="1dy-CH-qg3"/>
                             <constraint firstAttribute="trailing" secondItem="FWn-3O-URf" secondAttribute="trailing" id="2aO-qj-Lkr"/>
+                            <constraint firstItem="Gho-Bl-Ac3" firstAttribute="trailing" secondItem="esB-cG-XCn" secondAttribute="trailing" id="DYY-OZ-M7f"/>
                             <constraint firstItem="FWn-3O-URf" firstAttribute="top" secondItem="Z0h-it-UNC" secondAttribute="top" id="GLr-7d-mvE"/>
-                            <constraint firstAttribute="trailing" secondItem="Gho-Bl-Ac3" secondAttribute="trailing" id="TPO-nw-1zb"/>
+                            <constraint firstItem="Gho-Bl-Ac3" firstAttribute="leading" secondItem="esB-cG-XCn" secondAttribute="leading" id="Nzj-Ba-5nC"/>
                             <constraint firstItem="FWn-3O-URf" firstAttribute="leading" secondItem="Z0h-it-UNC" secondAttribute="leading" id="VFx-sf-CYU"/>
-                            <constraint firstAttribute="bottom" secondItem="Gho-Bl-Ac3" secondAttribute="bottom" id="VdM-Bb-SFl"/>
                             <constraint firstAttribute="bottom" secondItem="FWn-3O-URf" secondAttribute="bottom" id="WOS-BF-M2O"/>
-                            <constraint firstItem="Gho-Bl-Ac3" firstAttribute="top" secondItem="Z0h-it-UNC" secondAttribute="top" id="gCr-7I-7Av"/>
+                            <constraint firstItem="Gho-Bl-Ac3" firstAttribute="top" secondItem="Z0h-it-UNC" secondAttribute="top" id="e5t-s6-4AA"/>
+                            <constraint firstAttribute="bottom" secondItem="Gho-Bl-Ac3" secondAttribute="bottom" id="gkh-Oi-Me9"/>
                         </constraints>
                     </view>
                     <connections>
